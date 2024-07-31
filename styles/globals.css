@@ -1,0 +1,63 @@
+:root {
+  --yellow: #fcf174;
+  --lightyellow: #fff693;
+  --offwhite: #fbf9ee;
+  --black: #211e1c
+}
+
+@font-face {
+  font-family: "Headings";
+  src: url('../public/Garet-Heavy.ttf');
+}
+
+@font-face {
+  font-family: "Body";
+  src: url('../public/Garet-Book.ttf');
+}
+
+html {
+  background-color: var(--offwhite);
+  color: var(--black);
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+
+p {
+  font-family: "Body";
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Headings";
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--yellow);
+  border: none;
+  border-radius: 10px;
+  padding: .5rem;
+  width: 100px;
+  transition: .3s;
+  font-family: "Body";
+  color: var(--black);
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--lightyellow);
+  transition: .3s;
+}

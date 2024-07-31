@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.displayLists {
+    position: absolute;
+    padding: 10px;
+    margin-top: -8px;
+    line-height: 7px;
+}
+
+.logoLeft {
+    display: flex;
+    padding-left: 1rem;
+}
+
+.rightLinks {
+    display: flex;
+    gap: 80px;
+    padding-right: 1rem;
+    margin-top: -20px;
+}
+
+.logo {
+    width: 45px;
+    height: auto;
+}
+
+@keyframes bob {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bob:hover {
+    animation: bob 0.8s infinite;
+}

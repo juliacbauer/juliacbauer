@@ -1,0 +1,15 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.mainHeading {
+  font-size: 3rem;
+}
+
+.introP {
+  margin-top: -20px;
+}

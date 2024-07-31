@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    line-height: 8px;
+    margin-top: 80px;
+}
+
+@media (max-width: 800px) {
+    .container>p {
+        font-size: .8rem;
+    }
+}
