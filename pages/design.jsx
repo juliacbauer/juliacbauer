@@ -8,7 +8,7 @@ export default function Design() {
       <Head>
         <title>Design</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <main>

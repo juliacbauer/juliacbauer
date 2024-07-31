@@ -7,9 +7,8 @@ export default function Dev() {
     <>
       <Head>
         <title>Development</title>
-        <meta name="description" content="XX" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <main>

@@ -11,7 +11,7 @@ export default function Home() {
         <title>Julia Bauer</title>
         <meta name="description" content="Portfolio site for Julia Bauer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logo.png" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
       <main>
