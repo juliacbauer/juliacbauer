@@ -24,7 +24,7 @@
 }
 
 .logo {
-    width: 45px;
+    width: 35px;
     height: auto;
 }
 
@@ -44,4 +44,22 @@
 
 .bob:hover {
     animation: bob 0.8s infinite;
+}
+
+@media (max-width: 500px) {
+    .rightLinks {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 360px) {
+    .rightLinks {
+        gap: 10px;
+    }
+
+    .rightLinks>p, 
+    .workLink, 
+    .displayLists>p {
+        font-size: .9rem;
+    }
 }

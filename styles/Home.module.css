@@ -13,3 +13,21 @@
 .introP {
   margin-top: -20px;
 }
+
+@media (max-width: 500px) {
+  .mainHeading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .mainHeading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 300px) {
+  .mainHeading {
+    font-size: 1.5rem;
+  }
+}

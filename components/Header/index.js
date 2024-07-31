@@ -11,12 +11,12 @@ export default function Header() {
         <header className={styles.container}>
             <div className={styles.logoLeft}>
                 <p>
-                    <Link href="/"><img className={`${styles.logo} ${styles.bob}`} style={{ width: "45px", height: "auto" }} src="/logo.png" alt="Logo" /></Link>
+                    <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/logo.png" alt="Logo" /></Link>
                 </p>
             </div>
             <div className={styles.rightLinks}>
                 <div onClick={onClickLists} style={{ cursor: "pointer" }}>
-                    <p>Work</p>
+                    <p className={styles.workLink}>Work</p>
                     {displayLists && (
                         <div className={styles.displayLists}>
                             <p><Link href="/jou">Journalism</Link></p>
