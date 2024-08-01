@@ -2,7 +2,7 @@
   --yellow: #fcf174;
   --lightyellow: #fff693;
   --offwhite: #fbf9ee;
-  --black: #211e1c
+  --black: #211e1c;
 }
 
 @font-face {
@@ -20,8 +20,16 @@ html {
   color: var(--black);
 }
 
+p,
+h1,
+h2,
+h3 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 main {
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -45,19 +53,14 @@ a {
   text-decoration: none;
 }
 
-button {
-  background-color: var(--yellow);
-  border: none;
-  border-radius: 10px;
-  padding: .5rem;
-  width: 100px;
-  transition: .3s;
-  font-family: "Body";
-  color: var(--black);
+@media (max-width: 520px) {
+  h2 {
+    font-size: 1.2rem;
+  }
 }
 
-button:hover {
-  cursor: pointer;
-  background-color: var(--lightyellow);
-  transition: .3s;
+@media (max-width: 480px) {
+  p {
+    font-size: .9rem;
+  }
 }
