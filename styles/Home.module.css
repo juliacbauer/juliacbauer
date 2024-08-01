@@ -48,6 +48,7 @@
 .bgColorDiv {
   position: relative;
   margin-left: -50vw;
+  padding-right: 7px;
   left: 50%;
   right: 50%;
   width: 100vw;
@@ -233,7 +234,7 @@
 
   .mainHeading,
   .mainHeading1 {
-    margin-left: 10px;
+    margin-left: 18px;
     font-size: 1.6rem;
 
   }
