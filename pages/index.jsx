@@ -26,15 +26,16 @@ export default function Home() {
         <div className={styles.section2}>
           <br />
           <br />
-          <br />
           <div className={styles.bgColorDiv}>
             <div className={styles.bgColorContent}>
+              <br />
               <h2>About</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, porro animi ut, totam explicabo neque aut eligendi, odit eos sit magni? Qui tempore cum ratione doloribus quasi sequi? Unde, quos! Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, consequatur mollitia debitis dolor!</p>
               <Link href="/about">
                 <img className={styles.bob} style={{ width: "120px", height: "auto", cursor: "pointer" }} src="/button.png" alt="Button image" />
               </Link>
             </div>
+            <br />
           </div>
           <br />
           <div>
@@ -60,9 +61,11 @@ export default function Home() {
           <br />
           <div className={styles.bgColorDiv}>
             <div className={styles.bgColorContent}>
+              <br />
               <h2>Contact</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur hic iure quis repudiandae cumque non, ipsam qui illum dolore provident accusantiums.</p>
             </div>
+            <br />
           </div>
         </div>
       </main>

@@ -16,20 +16,20 @@ export default function Header() {
             </div>
             <div className={styles.rightLinks}>
                 <div onClick={onClickLists} style={{ cursor: "pointer" }}>
-                    <p className={styles.workLink}>Work</p>
+                    <p className={`${styles.workLink} ${styles.hoverLink}`}>Work</p>
                     {displayLists && (
                         <div className={styles.displayLists}>
-                            <p><Link href="/jou">Journalism</Link></p>
-                            <p><Link href="/design">Design</Link></p>
-                            <p><Link href="/dev">Development</Link></p>
-                            <p><Link href="/fun">Just for Fun</Link></p>
+                            <p className={styles.hoverLink}><Link href="/jou">Journalism</Link></p>
+                            <p className={styles.hoverLink}><Link href="/design">Design</Link></p>
+                            <p className={styles.hoverLink}><Link href="/dev">Development</Link></p>
+                            <p className={styles.hoverLink}><Link href="/fun">Just for Fun</Link></p>
                         </div>
                     )}
                 </div>
-                <p>
+                <p className={styles.hoverLink}>
                     <Link href="/about">About</Link>
                 </p>
-                <p>
+                <p className={styles.hoverLink}>
                     <Link href="/contact">Contact</Link>
                 </p>
             </div>

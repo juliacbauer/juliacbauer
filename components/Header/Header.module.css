@@ -10,8 +10,17 @@
     margin-top: -8px;
     line-height: 7px;
     margin-left: 13px;
-    background-color: #b1caca;
+    background-color: #fbf6c0;
     border-radius: 10px;
+}
+
+.hoverLink {
+    transition: .3s;
+}
+
+.hoverLink:hover {
+    color: #b1caca;
+    transition: .3s;
 }
 
 .logoLeft {
