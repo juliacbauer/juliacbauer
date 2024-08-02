@@ -17,7 +17,10 @@ export default function About() {
         <div>
           <div>
             <div>
-              <h1 className={ `${styles.headings} ${styles.h1}`}>About Me</h1>
+              <div className={styles.logoDiv}>
+                <h1 className={styles.headings}>About Me</h1>
+                <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
             </div>
             <br />
@@ -44,17 +47,17 @@ export default function About() {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat sint natus dignissimos quis praesentium?</p>
           <br />
           <div className={styles.contactDiv}>
-                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
-                </Link>
-                <Link href="/">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
-                </Link>
-                <Link href="/">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
-                </Link>
-              </div>
-              <br />
+            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+              <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+            </Link>
+            <Link href="/">
+              <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
+            </Link>
+            <Link href="/">
+              <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
+            </Link>
+          </div>
+          <br />
         </div>
       </main>
       <Footer />
