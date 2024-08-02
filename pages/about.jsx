@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import styles from "../styles/About.module.css"
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -33,7 +34,27 @@ export default function About() {
               <br />
             </div>
             <h2 className={styles.headings}>Resumé</h2>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
           </div>
+          <h2 className={styles.headings}>Contact</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat sint natus dignissimos quis praesentium?</p>
+          <br />
+          <div className={styles.contactDiv}>
+                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+                </Link>
+                <Link href="/">
+                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
+                </Link>
+                <Link href="/">
+                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
+                </Link>
+              </div>
+              <br />
         </div>
       </main>
       <Footer />

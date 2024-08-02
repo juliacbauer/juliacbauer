@@ -6,7 +6,37 @@
     display: flex;
 }
 
-@media (max-width: 610px) {
+  .contactDiv {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .contactBtn {
+    max-width: 120px;
+    height: auto;
+  }
+  
+  @keyframes bob {
+    0% {
+      transform: translateY(0);
+    }
+  
+    50% {
+      transform: translateY(-2px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .bob:hover {
+    animation: bob 0.8s infinite;
+  }
+
+  @media (max-width: 610px) {
     .edDiv {
         display: block;
     }
@@ -15,3 +45,40 @@
         text-align: center;
     }
 }
+  
+  @media (max-width: 485px) {
+  
+    .contactBtn {
+      max-width: 100px;
+    }
+  
+    .contactDiv {
+      gap: 30px;
+    }
+  }
+  
+  @media (max-width: 455px) {
+    .contactDiv {
+      gap: 20px;
+    }
+  
+    .contactBtn {
+      max-height: 100px;
+    }
+  }
+  
+  @media (max-width: 420px) {
+    .contactBtn {
+      max-width: 90px;
+    }
+  
+    .contactDiv {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .contactBtn {
+      max-height: 90px;
+    }
+  }
