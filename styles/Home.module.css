@@ -243,6 +243,46 @@
     margin-top: 10px;
   }
 
+  .heroSection {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .heroContent {
+    text-align: center;
+    margin: 0;
+  }
+
+  .img {
+    order: 2;
+    max-width: 230px;
+    margin: 0;
+  }
+
+
+  .mainHeading,
+  .mainHeading1 {
+    margin-left: 10px;
+  }
+
+  .mainHeading {
+    margin-bottom: 30px;
+  }
+
+  .linkedInBtn {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+
+  .linkedInBtnDiv {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .introP {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 530px) {
@@ -296,11 +336,6 @@
     margin-top: -20px;
   }
 
-  .mainHeading,
-  .mainHeading1 {
-    font-size: 1.4rem;
-  }
-
   .contactBtn {
     max-width: 100px;
   }
@@ -311,21 +346,6 @@
 }
 
 @media (max-width: 455px) {
-  .heroSection {
-    flex-direction: column;
-    margin: auto;
-  }
-
-  .heroContent {
-    text-align: center;
-    margin: 0;
-  }
-
-  .img {
-    order: 2;
-    max-width: 230px;
-    margin: 0;
-  }
 
   .contactDiv {
     gap: 20px;
@@ -337,26 +357,7 @@
 
   .mainHeading,
   .mainHeading1 {
-    margin-left: 10px;
     font-size: 1.6rem;
-  }
-
-  .mainHeading {
-    margin-bottom: 30px;
-  }
-
-  .linkedInBtn {
-    margin-top: 30px;
-    margin-bottom: -30px;
-  }
-
-  .linkedInBtnDiv {
-    width: 100%;
-    justify-content: center;
-  }
-
-  .introP {
-    margin-bottom: 20px;
   }
 
 }
@@ -382,6 +383,10 @@
   .workCard {
     width: 180px;
   }
+
+  .mainHeading {
+    margin-bottom: 30px;
+   }
 }
 
 @media (max-width: 360px) {
@@ -397,6 +402,7 @@
   .workCard {
     width: 170px;
   }
+
 }
 
 @media (max-width: 300px) {
