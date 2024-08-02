@@ -1,0 +1,17 @@
+.headings {
+    text-align: center;
+}
+
+.edDiv {
+    display: flex;
+}
+
+@media (max-width: 610px) {
+    .edDiv {
+        display: block;
+    }
+
+    .edDiv>div>h2 {
+        text-align: center;
+    }
+}

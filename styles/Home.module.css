@@ -101,13 +101,6 @@
 
 @media (max-width: 850px) {
   .img {
-    max-width: 300px;
-    height: auto;
-  }
-}
-
-@media (max-width: 850px) {
-  .img {
     max-width: 270px;
     height: auto;
   }
@@ -229,6 +222,7 @@
   .heroSection {
     flex-direction: column;
     margin: auto;
+    margin-top: -15px;
   }
 
   .heroContent {
