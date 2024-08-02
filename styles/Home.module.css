@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 96%;
   margin-top: 30px;
 }
 
 .heroContent {
   flex: 1;
-  margin-right: 20px;
+  margin-right: 25px;
 }
 
 .section2 {
@@ -17,7 +17,7 @@
 
 .mainHeading,
 .mainHeading1 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 
 .mainHeading1 {
@@ -120,7 +120,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
 
   .mainHeading,
   .mainHeading1 {
@@ -128,7 +128,7 @@
   }
 }
 
-@media (max-width: 625px) {
+@media (max-width: 638px) {
   .img {
     max-width: 250px;
     height: auto;
@@ -148,7 +148,7 @@
   }
 }
 
-@media (max-width: 585px) {
+@media (max-width: 605px) {
   .img {
     max-width: 220px;
     height: auto;
@@ -169,7 +169,7 @@
 
 }
 
-@media (max-width: 520px) {
+@media (max-width: 530px) {
 
   .img {
     max-width: 200px;
@@ -190,16 +190,24 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 510px) {
 
   .mainHeading,
   .mainHeading1 {
     font-size: 1.6rem;
   }
 
+  .mainHeading1 {
+    margin-bottom: -25px;
+  }
+
+  .mainHeading {
+    margin-bottom: 20px;
+  }
+
 }
 
-@media (max-width: 480px) {
+@media (max-width: 485px) {
 
   .introP {
     margin-top: -20px;
@@ -208,14 +216,6 @@
   .mainHeading,
   .mainHeading1 {
     font-size: 1.4rem;
-  }
-
-  .mainHeading1 {
-    margin-bottom: -20px;
-  }
-
-  .mainHeading {
-    margin-bottom: 20px;
   }
 
   .contactBtn {
@@ -227,7 +227,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 455px) {
   .heroSection {
     flex-direction: column;
     margin: auto;

@@ -24,13 +24,11 @@ export default function Home() {
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
         <div className={styles.section2}>
-          <br />
-          <br />
-          <div className={styles.bgColorDiv}>
+          <div>
             <div className={styles.bgColorContent}>
               <br />
               <h2>About</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, porro animi ut, totam explicabo neque aut eligendi, odit eos sit magni? Qui tempore cum ratione doloribus quasi sequi? Unde, quos! Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit, consequatur mollitia debitis dolor!</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, porro animi ut, totam explicabo neque aut eligendi, odit eos sit magni? Qui tempore cum ratione doloribus.</p>
               <Link href="/about">
                 <img className={styles.bob} style={{ width: "120px", height: "auto", cursor: "pointer" }} src="/button.png" alt="Button image" />
               </Link>
@@ -58,8 +56,7 @@ export default function Home() {
             </div>
           </div>
           <br />
-          <br />
-          <div className={styles.bgColorDiv}>
+          <div>
             <div className={styles.bgColorContent}>
               <br />
               <h2>Contact</h2>
@@ -77,7 +74,6 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <br />
           </div>
         </div>
       </main>
