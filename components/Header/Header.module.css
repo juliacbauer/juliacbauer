@@ -6,7 +6,7 @@
 
 .displayLists {
     position: absolute;
-    padding: 2px;
+    padding-right: 8px;
     margin-top: -8px;
     line-height: 7px;
     margin-left: 13px;
@@ -30,7 +30,7 @@
 
 .rightLinks {
     display: flex;
-    gap: 50px;
+    gap: 30px;
     padding-right: 1rem;
     margin-top: -20px;
 }
@@ -68,18 +68,6 @@
     }
 }
 
-@media (max-width: 520px) {
-    .rightLinks {
-        gap: 35px;
-    }
-}
-
-@media (max-width: 460px) {
-    .rightLinks {
-        gap: 10px;
-    }
-}
-
 @media (max-width: 400px) {
     .rightLinks {
         gap: 0px;
@@ -89,16 +77,16 @@
 
 @media (max-width: 375px) {
 
-    .rightLinks>p,
-    .workLink {
-        font-size: .9rem;
-    }
-
     .rightLinks {
         padding-right: .1rem;
     }
 
     .logoLeft {
-        padding-left: .1rem;
+        padding-left: .5rem;
+    }
+
+    .displayLists {
+        margin-left: 0px;
+        border-radius: 5px;
     }
 }

@@ -29,9 +29,6 @@ export default function Header() {
                 <p className={styles.hoverLink}>
                     <Link href="/about">About</Link>
                 </p>
-                <p className={styles.hoverLink}>
-                    <Link href="/contact">Contact</Link>
-                </p>
             </div>
         </header>
     );

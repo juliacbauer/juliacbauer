@@ -62,11 +62,12 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  align-items: center;
 }
 
 .contactBtn {
-  max-height: 120px;
-  width: auto;
+  max-width: 120px;
+  height: auto;
 }
 
 .bgColorContent {
@@ -216,6 +217,14 @@
   .mainHeading {
     margin-bottom: 20px;
   }
+
+  .contactBtn {
+    max-width: 100px;
+  }
+
+  .contactDiv {
+    gap: 30px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -262,6 +271,14 @@
 
   .introP {
     font-size: .9rem;
+  }
+
+  .contactBtn {
+    max-width: 90px;
+  }
+
+  .contactDiv {
+    gap: 20px;
   }
 }
 
