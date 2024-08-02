@@ -68,6 +68,13 @@
     }
 }
 
+@media (max-width: 900px) {
+    .rightLinks {
+        margin-right: -10px;
+        gap: 10px;
+    }
+}
+
 @media (max-width: 375px) {
 
     .rightLinks {

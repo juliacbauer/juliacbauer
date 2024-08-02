@@ -23,6 +23,7 @@ export default function Home() {
           </div>
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
+        <br />
         <div className={styles.section2}>
           <div>
             <div className={styles.bgColorContent}>
@@ -73,6 +74,7 @@ export default function Home() {
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
                 </Link>
               </div>
+              <br />
             </div>
           </div>
         </div>
