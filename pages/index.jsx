@@ -64,6 +64,14 @@ export default function Home() {
               <br />
               <h2>Contact</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur hic iure quis repudiandae cumque non, ipsam qui illum dolore provident accusantiums.</p>
+              <div className={styles.contactDiv}>
+                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+                </Link>
+                <Link href="/contact">
+                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/seemorebtn.png" alt="See more button" />
+                </Link>
+              </div>
             </div>
             <br />
           </div>

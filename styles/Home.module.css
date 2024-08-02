@@ -58,6 +58,17 @@
   padding-bottom: 20px;
 }
 
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contactBtn {
+  max-height: 120px;
+  width: auto;
+}
+
 .bgColorContent {
   max-width: 800px;
   margin: 0 auto;
@@ -232,6 +243,14 @@
     margin: 0;
   }
 
+  .contactDiv {
+    gap: 20px;
+  }
+
+  .contactBtn {
+    max-height: 100px;
+  }
+
   .mainHeading,
   .mainHeading1 {
     margin-left: 10px;
@@ -256,6 +275,10 @@
 
   .introP {
     font-size: .8rem;
+  }
+
+  .contactBtn {
+    max-height: 90px;
   }
 }
 
