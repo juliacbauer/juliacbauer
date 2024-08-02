@@ -21,12 +21,12 @@ export default function Journalism() {
             <img style={{ width: "350px", height: "auto" }} src="/jouMeGraphic.png" alt="Headshot" />
             <br />
             <br />
-            <h2>WUFT Online</h2>
+            <h2>WUFT</h2>
             <h2>Wellness360 Magazine</h2>
             <h2>Giggle Magazine</h2>
             <h2>Florida Gator Magazine</h2>
             <h2>WUFT TV</h2>
-            <h2>Local Papers</h2>
+            <h2>Freelance</h2>
           </div>
         </div>
       </main>
