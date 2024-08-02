@@ -231,13 +231,11 @@
   .heroSection {
     flex-direction: column;
     margin: auto;
-    margin-top: -15px;
   }
 
   .heroContent {
     text-align: center;
     margin: 0;
-    margin-top: -10px;
   }
 
   .img {
