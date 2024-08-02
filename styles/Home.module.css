@@ -11,6 +11,17 @@
   margin-right: 25px;
 }
 
+.linkedInBtn {
+  width: 140px;
+  height: auto;
+  margin-top: -50px;
+}
+
+.linkedInBtnDiv {
+  display: flex;
+  width: 94%;
+}
+
 .section2 {
   text-align: center;
 }
@@ -29,16 +40,20 @@
 }
 
 .workImg {
-  width: 160px;
+  width: 200px;
   height: auto;
   cursor: pointer;
+}
+
+.workCard {
+  width: 250px;
 }
 
 .workDiv {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 750px;
+  width: 1100px;
   margin: 0 auto;
   padding-right: .5rem;
   padding-left: .5rem;
@@ -54,7 +69,7 @@
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-color: #b1caca;
+  background-color: #d6e2e2;
   padding-bottom: 20px;
 }
 
@@ -100,23 +115,65 @@
   animation: bob 0.8s infinite;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1200px) {
+  .workImg {
+    width: 180px;
+  }
+
+  .workCard {
+    width: 250px;
+  }
+
+  .workDiv {
+    width: 950px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .workImg {
+    width: 160px;
+  }
+
+  .workDiv {
+    width: 870px;
+  }
+}
+
+@media (max-width: 900px) {
   .img {
     max-width: 270px;
     height: auto;
   }
 
-  .workImg {
-    width: 140px;
+  .workDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 50px;
+    row-gap: 20px;
+    width: auto;
+  }
+
+  .linkedInBtn {
+    margin-top: -20px;
   }
 }
 
+@media (max-width: 775px) {
+
+  .linkedInBtn {
+    margin-top: -10px;
+  }
+}
 
 @media (max-width: 730px) {
 
   .mainHeading,
   .mainHeading1 {
     font-size: 2.3rem;
+  }
+
+  .linkedInBtn {
+    width: 120px;
   }
 }
 
@@ -146,35 +203,7 @@
   .mainHeading1 {
     margin-bottom: -30px;
   }
-}
 
-@media (max-width: 605px) {
-  .img {
-    max-width: 220px;
-    height: auto;
-  }
-
-  .workImg {
-    width: 110px;
-  }
-
-  .heroContent {
-    margin-right: 10px;
-  }
-
-  .mainHeading,
-  .mainHeading1 {
-    font-size: 1.8rem;
-  }
-
-}
-
-@media (max-width: 530px) {
-
-  .img {
-    max-width: 200px;
-    height: auto;
-  }
 
   .workDiv {
     display: grid;
@@ -186,7 +215,61 @@
   }
 
   .workImg {
-    width: 90%;
+    width: 70%;
+  }
+}
+
+@media (max-width: 605px) {
+  .img {
+    max-width: 220px;
+    height: auto;
+  }
+
+  .heroContent {
+    margin-right: 10px;
+  }
+
+  .mainHeading,
+  .mainHeading1 {
+    font-size: 1.8rem;
+  }
+
+  .linkedInBtnDiv {
+    width: 91%;
+  }
+
+  .linkedInBtn {
+    width: 100px;
+    margin-top: 10px;
+  }
+
+}
+
+@media (max-width: 530px) {
+
+  .img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .workImg {
+    width: 60%;
+  }
+
+  .workDiv {
+    column-gap: 10px;
+  }
+
+  .workCard {
+    width: 200px;
+  }
+
+  .workCard>p {
+    font-size: .9rem;
+  }
+
+  .h3 {
+    font-size: 1rem;
   }
 }
 
@@ -256,11 +339,24 @@
   .mainHeading1 {
     margin-left: 10px;
     font-size: 1.6rem;
-
   }
 
   .mainHeading {
     margin-bottom: 30px;
+  }
+
+  .linkedInBtn {
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+
+  .linkedInBtnDiv {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .introP {
+    margin-bottom: 20px;
   }
 
 }
@@ -278,6 +374,14 @@
   .contactDiv {
     gap: 20px;
   }
+
+  .workDiv {
+    column-gap: 0px;
+  }
+
+  .workCard {
+    width: 180px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -288,6 +392,10 @@
 
   .contactBtn {
     max-height: 90px;
+  }
+
+  .workCard {
+    width: 170px;
   }
 }
 

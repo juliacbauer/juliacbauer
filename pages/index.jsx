@@ -23,37 +23,52 @@ export default function Home() {
           </div>
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
+        <div className={styles.linkedInBtnDiv}>
+        <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+          <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
+        </Link>
+        </div>
+        <br />
+        <br />
         <br />
         <div className={styles.section2}>
-          <div>
-            <div className={styles.bgColorContent}>
-              <br />
-              <h2>About</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, porro animi ut, totam explicabo neque aut eligendi, odit eos sit magni? Qui tempore cum ratione doloribus.</p>
-              <Link href="/about">
-                <img className={styles.bob} style={{ width: "120px", height: "auto", cursor: "pointer" }} src="/button.png" alt="Button image" />
-              </Link>
-            </div>
-            <br />
-          </div>
           <br />
           <div>
-            <h2>My Work</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quam suscipit ipsa.</p>
-            <br />
-            <div className={styles.workDiv}>
-              <Link href="/jou">
-                <img className={`${styles.bob} ${styles.workImg}`} src="/jou.png" alt="Journalism icon" />
-              </Link>
-              <Link href="/design">
-                <img className={`${styles.bob} ${styles.workImg}`} src="/design.png" alt="Design icon" />
-              </Link>
-              <Link href="/dev">
-                <img className={`${styles.bob} ${styles.workImg}`} src="/dev.png" alt="Development icon" />
-              </Link>
-              <Link href="/fun">
-                <img className={`${styles.bob} ${styles.workImg}`} src="/finalpersonallogo.png" alt="Logo" />
-              </Link>
+            <div className={styles.bgColorDiv}>
+              <br />
+              <h2>My Work</h2>
+              <br />
+              <div className={styles.workDiv}>
+                <div className={styles.workCard}>
+                  <Link href="/jou">
+                    <img className={`${styles.bob} ${styles.workImg}`} src="/jou.png" alt="Journalism icon" />
+                  </Link>
+                  <h3 className={styles.h3}>Journalism</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div className={styles.workCard}>
+                  <Link href="/design">
+                    <img className={`${styles.bob} ${styles.workImg}`} src="/design.png" alt="Design icon" />
+                  </Link>
+                  <h3 className={styles.h3}>Design</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div className={styles.workCard}>
+                  <Link href="/dev">
+                    <img className={`${styles.bob} ${styles.workImg}`} src="/dev.png" alt="Development icon" />
+                  </Link>
+                  <h3 className={styles.h3}>Development</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+                <div className={styles.workCard}>
+                  <Link href="/fun">
+                    <img className={`${styles.bob} ${styles.workImg}`} src="/finalpersonallogo.png" alt="Logo" />
+                  </Link>
+                  <h3 className={styles.h3}>Just for Fun</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                </div>
+              </div>
+              <br />
             </div>
           </div>
           <br />
