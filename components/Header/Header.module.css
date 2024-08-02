@@ -74,19 +74,3 @@
         gap: 10px;
     }
 }
-
-@media (max-width: 375px) {
-
-    .rightLinks {
-        padding-right: .1rem;
-    }
-
-    .logoLeft {
-        padding-left: .5rem;
-    }
-
-    .displayLists {
-        margin-left: 0px;
-        border-radius: 5px;
-    }
-}
