@@ -24,14 +24,14 @@ export default function Home() {
           <div className={styles.heroContent}>
             <h1 className={styles.mainHeading1}>Hello!</h1>
             <h1 className={styles.mainHeading}> I'm Julia Bauer.</h1>
-            <p className={styles.introP}>Welcome to my website. This is a WIP. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium totam, a molestias incidunt doloribus.</p>
+            <p className={styles.introP}>Welcome to my website. This is a WIP. Lorem ipsum dolor sit amet consectuer. A storyteller at heart.</p>
           </div>
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
         <div className={styles.linkedInBtnDiv}>
-        <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
-          <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
-        </Link>
+          <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+            <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
+          </Link>
         </div>
         <br />
         <br />
@@ -86,9 +86,6 @@ export default function Home() {
               <div className={styles.contactDiv}>
                 <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
-                </Link>
-                <Link href="/JuliaBauerResume.jpg" target="blank">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
                 </Link>
                 <Link href="/" scroll={false}>
                   <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} src="/emailbtn.png" alt="Email button" />

@@ -14,17 +14,6 @@
   gap: 10px;
 }
 
-.resumeImg {
-  height: 650px;
-  width: auto;
-  display: flex;
-  align-items: center;
-}
-
-.resumeDiv {
-  display: flex;
-  justify-content: center;
-}
 
 @keyframes bob {
   0% {
@@ -44,6 +33,16 @@
   animation: bob 0.8s infinite;
 }
 
+.btnDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedInBtn {
+  max-width: 120px;
+  height: auto;
+}
+
 @media (max-width: 610px) {
   .edDiv {
     display: block;
@@ -54,49 +53,27 @@
   }
 }
 
-@media (max-width: 550px) {
-  .resumeImg {
-    height: 500px;
-  }
-}
-
 @media (max-width: 485px) {
-
-  .contactBtn {
+  .linkedInBtn {
     max-width: 100px;
-  }
-
-  .contactDiv {
-    gap: 30px;
   }
 }
 
 @media (max-width: 455px) {
-  .contactDiv {
-    gap: 20px;
-  }
-
-  .contactBtn {
+  .linkedInBtn {
     max-height: 100px;
-  }
-
-  .resumeImg {
-    height: 400px;
   }
 }
 
 @media (max-width: 420px) {
-  .contactBtn {
+  .linkedInBtn {
     max-width: 90px;
-  }
-
-  .contactDiv {
-    gap: 20px;
   }
 }
 
 @media (max-width: 360px) {
-  .contactBtn {
+  .linkedInBtn {
     max-height: 90px;
   }
+
 }

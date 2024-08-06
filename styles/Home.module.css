@@ -20,6 +20,7 @@
 .linkedInBtnDiv {
   display: flex;
   width: 94%;
+  margin-top: -30px;
 }
 
 .section2 {
@@ -31,12 +32,13 @@
   font-size: 2.5rem;
 }
 
-.mainHeading1 {
-  margin-bottom: -40px;
+.mainHeading {
+  margin-bottom: -5px;
 }
 
-.introP {
-  margin-top: -20px;
+.mainHeading1 {
+  margin-bottom: -40px;
+  margin-top: -10px;
 }
 
 .workImg {
@@ -178,21 +180,17 @@
 }
 
 @media (max-width: 670px) {
-
+  
   .mainHeading,
   .mainHeading1 {
     font-size: 2.1rem;
   }
 }
 
-@media (max-width: 638px) {
+@media (max-width: 639px) {
   .img {
     max-width: 250px;
     height: auto;
-  }
-
-  .workImg {
-    width: 130px;
   }
 
   .mainHeading,
@@ -203,7 +201,6 @@
   .mainHeading1 {
     margin-bottom: -30px;
   }
-
 
   .workDiv {
     display: grid;
@@ -220,10 +217,6 @@
 }
 
 @media (max-width: 605px) {
-  .img {
-    max-width: 220px;
-    height: auto;
-  }
 
   .heroContent {
     margin-right: 10px;
@@ -232,6 +225,7 @@
   .mainHeading,
   .mainHeading1 {
     font-size: 1.8rem;
+    margin-left: 10px;
   }
 
   .linkedInBtnDiv {
@@ -240,7 +234,8 @@
 
   .linkedInBtn {
     width: 100px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: -30px;
   }
 
   .heroSection {
@@ -254,33 +249,24 @@
   }
 
   .img {
-    order: 2;
     max-width: 230px;
     margin: 0;
-  }
-
-
-  .mainHeading,
-  .mainHeading1 {
-    margin-left: 10px;
   }
 
   .mainHeading {
     margin-bottom: 30px;
   }
 
-  .linkedInBtn {
-    margin-top: 30px;
-    margin-bottom: -30px;
-  }
-
   .linkedInBtnDiv {
     width: 100%;
     justify-content: center;
+    margin-top: 0px;
   }
 
   .introP {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    max-width: 400px;
   }
 
 }
@@ -328,13 +314,13 @@
     margin-bottom: 20px;
   }
 
+  .introP {
+    margin-top: -10px;
+  }
+
 }
 
 @media (max-width: 485px) {
-
-  .introP {
-    margin-top: -20px;
-  }
 
   .contactBtn {
     max-width: 100px;
@@ -391,7 +377,9 @@
 
 @media (max-width: 360px) {
 
-  .introP {
+  .introP,
+  .workCard>p,
+  .bgColorContent>p  {
     font-size: .8rem;
   }
 
