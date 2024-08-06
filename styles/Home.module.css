@@ -9,6 +9,7 @@
 .heroContent {
   flex: 1;
   margin-right: 25px;
+  margin-top: -70px;
 }
 
 .linkedInBtn {
@@ -24,22 +25,27 @@
   margin-bottom: 30px;
 }
 
+.logo {
+  max-width: 50px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.logoDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
 .section2 {
   text-align: center;
 }
 
 .mainHeading,
-.mainHeading1 {
-  font-size: 2.5rem;
-}
-
-.mainHeading {
+.logo {
   margin-bottom: -5px;
-}
-
-.mainHeading1 {
-  margin-bottom: -40px;
-  margin-top: -60px;
+  font-size: 2.5rem;
 }
 
 .workImg {
@@ -94,7 +100,7 @@
 }
 
 .img {
-  max-width: 380px;
+  max-width: 355px;
   height: auto;
   object-fit: contain;
   margin-right: .5rem;
@@ -171,9 +177,26 @@
   }
 
   .linkedInBtnDiv {
-    margin-top: -20px;
+    margin-top: -45px;
   }
 }
+
+@media (max-width: 755px) {
+
+  .mainHeading,
+  .mainHeading1 {
+    font-size: 2.3rem;
+  }
+
+  .introP {
+    font-size: .9rem;
+  }
+
+  .linkedInBtn {
+    width: 120px;
+  }
+}
+
 
 @media (max-width: 730px) {
 
@@ -188,14 +211,14 @@
 }
 
 @media (max-width: 670px) {
-  
+
   .mainHeading,
   .mainHeading1 {
     font-size: 2.1rem;
   }
 }
 
-@media (max-width: 639px) {
+@media (max-width: 643px) {
   .img {
     max-width: 250px;
     height: auto;
@@ -224,7 +247,7 @@
   }
 
   .linkedInBtnDiv {
-    margin-top: -10px;
+    margin-top: -25px;
   }
 
   .linkedInBtn {
@@ -238,14 +261,19 @@
     margin-right: 10px;
   }
 
+  .logoDiv {
+    justify-content: center;
+  }
+
+  .logo {
+    margin-top: -10px;
+    width: 40px;
+  }
+
   .mainHeading,
   .mainHeading1 {
     font-size: 1.8rem;
     margin-left: 10px;
-  }
-
-  .linkedInBtnDiv {
-    width: 91%;
   }
 
   .linkedInBtn {
@@ -280,7 +308,7 @@
   .linkedInBtnDiv {
     width: 100%;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 5px;
     margin-bottom: 10px;
   }
 
@@ -297,6 +325,11 @@
   .img {
     max-width: 200px;
     height: auto;
+    margin: -10px;
+  }
+
+  .introP {
+    margin-top: -10px;
   }
 
   .workImg {
@@ -336,7 +369,7 @@
   }
 
   .introP {
-    margin-top: -10px;
+    margin-top: 0px;
   }
 
 }
@@ -372,7 +405,7 @@
 @media (max-width: 420px) {
 
   .introP {
-    font-size: .9rem;
+    font-size: .8rem;
   }
 
   .contactBtn {
@@ -391,16 +424,13 @@
     width: 180px;
   }
 
-  .mainHeading {
-    margin-bottom: 30px;
-   }
 }
 
 @media (max-width: 360px) {
 
   .introP,
   .workCard>p,
-  .bgColorContent>p  {
+  .bgColorContent>p {
     font-size: .8rem;
   }
 

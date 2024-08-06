@@ -22,9 +22,12 @@ export default function Home() {
       <main>
         <div className={styles.heroSection}>
           <div className={styles.heroContent}>
-            <h1 className={styles.mainHeading1}>Hello!</h1>
-            <h1 className={styles.mainHeading}> I'm Julia Bauer.</h1>
-            <p className={styles.introP}>Welcome to my website. This is a WIP. Lorem ipsum dolor sit amet consectuer. A storyteller at heart.</p>
+            <div className={styles.logoDiv}>
+            <h1 className={styles.mainHeading}>Julia Bauer</h1>
+            <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+            </div>
+            <p className={styles.introP}>Communications professional with expertise in journalism, design and
+            digital media striving to connect with others through impactful narratives and the arts. A storyteller at heart.</p>
           </div>
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
