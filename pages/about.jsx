@@ -21,7 +21,7 @@ export default function About() {
                 <h1 className={styles.headings}>About Me</h1>
                 <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
               </div>
-              <img style={{ width: "350px", height: "auto" }} src="/jouMeGraphic.png" alt="Headshot" />
+              <img style={{ width: "320px", height: "auto" }} src="/jouMeGraphic.png" alt="Headshot" />
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
             </div>
             <br />
