@@ -7,6 +7,23 @@
   height: auto;
 }
 
+.aboutDiv {
+  display: flex;
+  gap: 50px;
+}
+
+.aboutP {
+  margin-top: 40px;
+}
+
+.aboutImg {
+  max-width: 250px;
+  height: auto;
+  width: 100%;
+  object-fit: contain;
+  margin-left: 10px;
+}
+
 .logoDiv {
   display: flex;
   align-items: center;
@@ -43,6 +60,28 @@
   height: auto;
 }
 
+@media (max-width: 850px) {
+
+  .aboutDiv {
+    gap: 20px;
+  }
+  
+}
+
+@media (max-width: 750px) {
+
+  .aboutDiv {
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .aboutImg {
+    margin-bottom: -15px;
+  }
+  
+}
+
 @media (max-width: 610px) {
   .edDiv {
     display: block;
@@ -56,6 +95,10 @@
 @media (max-width: 485px) {
   .linkedInBtn {
     max-width: 100px;
+  }
+
+  .aboutImg {
+    width: 180px;
   }
 }
 
