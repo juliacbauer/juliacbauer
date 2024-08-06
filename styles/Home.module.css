@@ -326,10 +326,6 @@
     width: 200px;
   }
 
-  .workCard>p {
-    font-size: .9rem;
-  }
-
   .h3 {
     font-size: 1rem;
   }
@@ -380,7 +376,9 @@
 
 @media (max-width: 420px) {
 
-  .introP {
+  .introP,
+  .workCard>p,
+  .bgColorContent>p  {
     font-size: .8rem;
   }
 
@@ -403,12 +401,6 @@
 }
 
 @media (max-width: 360px) {
-
-  .introP,
-  .workCard>p,
-  .bgColorContent>p {
-    font-size: .8rem;
-  }
 
   .contactBtn {
     max-height: 90px;
