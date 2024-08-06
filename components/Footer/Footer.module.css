@@ -1,12 +1,36 @@
 .container {
     text-align: center;
-    line-height: 5px;
+    line-height: 0px;
     margin-top: 80px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.linkDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkDiv>a>p,
+.btn {
+    font-family: "Headings";
+    color: #4b6a6a;
 }
 
 @media (max-width: 800px) {
-    .container>p {
+
+    .container>p,
+    .linkDiv>a>p,
+    .btn {
         font-size: .8rem;
+    }
+}
+
+@media (max-width: 335px) {
+
+    .container>p,
+    .linkDiv>a>p,
+    .btn {
+        font-size: .7rem;
     }
 }

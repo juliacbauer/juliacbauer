@@ -31,12 +31,12 @@ export default function Dev() {
             <br />
             <h2>First Project</h2>
             <br />
-            <h2>Wanna see more?</h2>
+            <h2>Want to see more?</h2>
             <p>Feel free to view more skill-based work on my GitHub. Looking at my repositories in chronological order illustrates my web development learning process via the Web Design and Online Communication program within the Univeristy of Florida's M.A. in Mass Communication degree.</p>
             <p>You can see my skills grow from just basic HTML to include CSS, JavaSript, Node, MongoDB, and more, finally culminating with multiple full-stack CRUD apps: my Advanced Web 3 project, ProsePal, and my Capstone project, Cinememo.</p>
             <br />
             <div className={styles.btnDiv}>
-              <Link href="https://github.com/juliacbauer" target="blank">
+              <Link href="https://github.com/juliacbauer" target="_blank">
                 <img className={`${styles.bob} ${styles.btn}`} src="/githubbtn.png" alt="GitHub button" />
               </Link>
             </div>

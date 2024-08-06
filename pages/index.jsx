@@ -29,7 +29,7 @@ export default function Home() {
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
         <div className={styles.linkedInBtnDiv}>
-          <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+          <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
             <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
           </Link>
         </div>
@@ -40,6 +40,7 @@ export default function Home() {
           <br />
           <div>
             <div className={styles.bgColorDiv}>
+              <br />
               <br />
               <h2>My Work</h2>
               <br />
@@ -84,12 +85,12 @@ export default function Home() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur hic iure quis repudiandae cumque non, ipsam qui illum dolore provident accusantiums.</p>
               <br />
               <div className={styles.contactDiv}>
-                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
+                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
                 </Link>
-                <Link href="/" scroll={false}>
-                  <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} src="/emailbtn.png" alt="Email button" />
-                </Link>
+                <btn>
+                  <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.png" alt="Email button" />
+                </btn>
               </div>
               <br />
             </div>

@@ -1,11 +1,25 @@
 import styles from "./Footer.module.css";
 
 export default function Footer() {
+    const email = "juliabauercomm@gmail.com";
+
+    const handleEmailClick = () => {
+        window.location.href = `mailto:${email}`;
+    }
     return (
         <footer className={styles.container}>
-            <p>Developed and designed by Julia Bauer </p>
-            <p>© 2024</p>
-            <p>Next.js | Vercel</p>
+            <div className={styles.linkDiv}>
+                <a href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+                    <p>LinkedIn</p>
+                </a>
+                <a href="https://github.com/juliacbauer" target="_blank">
+                    <p>GitHub</p>
+                </a>
+                <btn onClick={handleEmailClick} style={{ cursor: "pointer" }}>
+                    <p className={styles.btn}>Email</p>
+                </btn>
+            </div>
+            <p>Developed & designed by Julia Bauer © 2024</p>
         </footer>
     );
 }
