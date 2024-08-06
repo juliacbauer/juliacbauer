@@ -5,6 +5,11 @@ import Header from "../components/Header"
 import Footer from "../components/Footer"
 
 export default function Home() {
+  const email = "juliabauercomm@gmail.com";
+
+  const handleEmailClick = () => {
+    window.location.href = `mailto:${email}`;
+  };
   return (
     <>
       <Head>
@@ -82,11 +87,11 @@ export default function Home() {
                 <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
                 </Link>
-                <Link href="/">
+                <Link href="/JuliaBauerResume.jpg" target="blank">
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
                 </Link>
-                <Link href="/">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
+                <Link href="/" scroll={false}>
+                  <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} src="/emailbtn.png" alt="Email button" />
                 </Link>
               </div>
               <br />

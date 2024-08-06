@@ -25,40 +25,19 @@ export default function About() {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
             </div>
             <br />
-            <div className={styles.edDiv}>
-              <div>
-                <h2>Experience</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
-              </div>
-              <br />
-              <div>
-                <h2>Education</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
-              </div>
-              <br />
-            </div>
+            <h2>Experience</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
+            <br />
+            <h2>Education</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
+            <br />
             <h2 className={styles.headings}>Resumé</h2>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            <div className={styles.resumeDiv}>
+            <Link href="/JuliaBauerResume.jpg" target="blank">
+              <img className={styles.resumeImg} src="/JuliaBauerResume.jpg" alt="Resume" />
+            </Link>
+            </div>
           </div>
-          <h2 className={styles.headings}>Contact</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat sint natus dignissimos quis praesentium?</p>
-          <br />
-          <div className={styles.contactDiv}>
-            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="blank">
-              <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
-            </Link>
-            <Link href="/">
-              <img className={`${styles.bob} ${styles.contactBtn}`} src="/resumebtn.png" alt="Resumé button" />
-            </Link>
-            <Link href="/">
-              <img className={`${styles.bob} ${styles.contactBtn}`} src="/emailbtn.png" alt="Email button" />
-            </Link>
-          </div>
-          <br />
         </div>
       </main>
       <Footer />
