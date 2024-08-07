@@ -64,3 +64,9 @@ a {
     font-size: .9rem;
   }
 }
+
+@media (max-width: 420px) {
+  p {
+    font-size: .8rem;
+  }
+}

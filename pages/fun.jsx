@@ -19,13 +19,16 @@ export default function Fun() {
               <h1 className={styles.h1}>Just For Fun</h1>
               <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             <br />
             <h2>Personal Branding</h2>
+            <p>Branding process with Adobe Creative Suite</p>
             <br />
             <h2>Art</h2>
+            <p>Marker, paint, pencil, pen</p>
             <br />
             <h2>Photography</h2>
+            <p>Nature shots</p>
           </div>
           <br />
         </div>

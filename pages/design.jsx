@@ -19,15 +19,22 @@ export default function Design() {
               <h1 className={styles.h1}>Design</h1>
               <img className={styles.logo} src="/design.png" alt="Design icon" />
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             <br />
             <h2>Winterborn</h2>
+            <p>Explain Winterborn</p>
             <br />
             <h2>Illustrator</h2>
+            <p>Portiko</p>
+            <p>Florida Kids Eat Well</p>
             <br />
             <h2>InDesign</h2>
+            <p>Cook book</p>
             <br />
             <h2>Photoshop</h2>
+            <p>Ad campaign</p>
+            <p>Email blast</p>
+            <p>Alex G website</p>
           </div>
         </div>
         <br />
