@@ -1,5 +1,23 @@
-@media (max-width: 610px) {
+.logoDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: -15px;
+}
+
+.logo {
+    max-width: 40px;
+    height: auto;
+}
+
+@media (max-width: 420px) {
+    .logo {
+        max-width: 35px;
+    }
+
     .h1 {
-        text-align: center;
+        font-size: 1.8rem;
     }
 }
+

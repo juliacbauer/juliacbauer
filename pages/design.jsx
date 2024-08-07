@@ -15,8 +15,10 @@ export default function Design() {
       <main>
         <div>
           <div>
-            <h1 className={styles.h1}>Design</h1>
-            <img style={{ width: "250px", height: "auto" }} src="/design.png" alt="Design icon" />
+            <div className={styles.logoDiv}>
+              <h1 className={styles.h1}>Design</h1>
+              <img className={styles.logo} src="/design.png" alt="Design icon" />
+            </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
             <br />
             <h2>Winterborn</h2>
