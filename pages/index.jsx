@@ -26,8 +26,8 @@ export default function Home() {
             <h1 className={styles.mainHeading}>Julia Bauer</h1>
             <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
             </div>
-            <p className={styles.introP}>Communications professional with expertise in journalism, design and
-            digital media striving to connect with others through impactful narratives and the arts. A storyteller at heart.</p>
+            <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
+            digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
           </div>
           <img className={styles.img} src="/meMain.png" alt="Headshot" />
         </div>
@@ -53,28 +53,28 @@ export default function Home() {
                     <img className={`${styles.bob} ${styles.workImg}`} src="/jou.png" alt="Journalism icon" />
                   </Link>
                   <h3 className={styles.h3}>Journalism</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Compelling, informative stories.</p>
                 </div>
                 <div className={styles.workCard}>
                   <Link href="/design">
                     <img className={`${styles.bob} ${styles.workImg}`} src="/design.png" alt="Design icon" />
                   </Link>
                   <h3 className={styles.h3}>Design</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Effective, captivating designs.</p>
                 </div>
                 <div className={styles.workCard}>
                   <Link href="/dev">
                     <img className={`${styles.bob} ${styles.workImg}`} src="/dev.png" alt="Development icon" />
                   </Link>
                   <h3 className={styles.h3}>Development</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>Responsive, UX-optimized websites.</p>
                 </div>
                 <div className={styles.workCard}>
                   <Link href="/fun">
                     <img className={`${styles.bob} ${styles.workImg}`} src="/finalpersonallogo.png" alt="Logo" />
                   </Link>
                   <h3 className={styles.h3}>Just for Fun</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur</p>
+                  <p>My artistic hobbies and passions.</p>
                 </div>
               </div>
               <br />
@@ -85,7 +85,7 @@ export default function Home() {
             <div className={styles.bgColorContent}>
               <br />
               <h2>Contact</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur hic iure quis repudiandae cumque non, ipsam qui illum dolore provident accusantiums.</p>
+              <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
               <br />
               <div className={styles.contactDiv}>
                 <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
