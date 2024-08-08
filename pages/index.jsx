@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
           <div>
-          <div className={styles.smallSpacer} />
+          <div className={styles.medSpacer} />
             <div>
               <h2>Contact</h2>
               <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
