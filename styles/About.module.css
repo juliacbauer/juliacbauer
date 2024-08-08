@@ -22,6 +22,8 @@
 
 .aboutP {
   margin-top: 40px;
+  max-width: 465px;
+  object-fit: contain;
 }
 
 .aboutImg {
@@ -73,7 +75,7 @@
   .aboutDiv {
     gap: 20px;
   }
-  
+
 }
 
 @media (max-width: 750px) {
@@ -87,7 +89,11 @@
   .aboutImg {
     margin-bottom: -15px;
   }
-  
+
+  .aboutP {
+    max-width: 800px;
+  }
+
 }
 
 @media (max-width: 610px) {

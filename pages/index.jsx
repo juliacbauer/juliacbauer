@@ -74,15 +74,16 @@ export default function Home() {
         <div className={styles.section2}>
           <div>
             <div>
-              <WorkSection title="My Work" works={works} />
+              <WorkSection title="Explore My Work" works={works} />
             </div>
           </div>
           <div>
           <div className={styles.medSpacer} />
             <div>
-              <h2>Contact</h2>
+              <h2>Contact Me</h2>
+              <div className={styles.smallerSpacer} />
               <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
-              <br />
+              <div className={styles.smallSpacer} />
               <div className={styles.contactDiv}>
                 <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
                   <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />

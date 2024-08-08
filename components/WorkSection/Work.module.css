@@ -3,7 +3,7 @@
     height: auto;
     cursor: pointer;
     margin-left: 4%;
-    border-radius: 10px;
+    object-fit: cover;
 }
 
 .workCard {
@@ -16,6 +16,12 @@
     justify-content: space-between;
     width: 1100px;
     margin: 0 auto;
+}
+
+.bgColorDiv>h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
 }
 
 .bgColorDiv {

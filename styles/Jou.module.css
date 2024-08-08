@@ -4,11 +4,25 @@
     justify-content: center;
     gap: 10px;
     margin-bottom: -15px;
+    margin-top: -10px;
 }
 
 .logo {
     max-width: 40px;
     height: auto;
+}
+
+.pBreak {
+    max-width: 250px;
+    height: auto;
+}
+
+.pBreakDiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .spacer {
@@ -68,6 +82,10 @@
 @media (max-width: 420px) {
     .logo {
         max-width: 35px;
+    }
+
+    .pBreak {
+        max-width: 200px;
     }
 
     .h1 {

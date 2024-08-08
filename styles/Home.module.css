@@ -18,6 +18,10 @@
   height: 20px;
 }
 
+.smallerSpacer {
+  height: 1px;
+}
+
 .heroContent {
   flex: 1;
   margin-right: 25px;
