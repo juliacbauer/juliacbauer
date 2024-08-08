@@ -49,7 +49,7 @@ export default function Home() {
               <br />
               <div className={styles.workDiv}>
                 <div className={styles.workCard}>
-                  <Link href="/jou">
+                  <Link href="/journalism">
                     <img className={`${styles.bob} ${styles.workImg}`} src="/jou.png" alt="Journalism icon" />
                   </Link>
                   <h3 className={styles.h3}>Journalism</h3>
@@ -63,7 +63,7 @@ export default function Home() {
                   <p>Effective, captivating designs.</p>
                 </div>
                 <div className={styles.workCard}>
-                  <Link href="/dev">
+                  <Link href="/development">
                     <img className={`${styles.bob} ${styles.workImg}`} src="/dev.png" alt="Development icon" />
                   </Link>
                   <h3 className={styles.h3}>Development</h3>

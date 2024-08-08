@@ -19,9 +19,9 @@ export default function Header() {
                     <p className={`${styles.workLink} ${styles.hoverLink}`}>Work</p>
                     {displayLists && (
                         <div className={styles.displayLists}>
-                            <p className={styles.hoverLink}><Link href="/jou">Journalism</Link></p>
+                            <p className={styles.hoverLink}><Link href="/journalism">Journalism</Link></p>
                             <p className={styles.hoverLink}><Link href="/design">Design</Link></p>
-                            <p className={styles.hoverLink}><Link href="/dev">Development</Link></p>
+                            <p className={styles.hoverLink}><Link href="/development">Development</Link></p>
                             <p className={styles.hoverLink}><Link href="/fun">Just for Fun</Link></p>
                         </div>
                     )}

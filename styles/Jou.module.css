@@ -14,18 +14,9 @@
 .workImg {
     max-width: 200px;
     height: auto;
+    margin: auto 0;
     cursor: pointer;
-}
-
-.workCard {
-    max-width: 250px;
-}
-
-.workDiv {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-    margin: 0 auto;
+    margin-left: 13px;
 }
 
 @keyframes bob {
@@ -52,57 +43,6 @@
     margin-left: 8px;
 }
 
-@media (max-width: 1200px) {
-    .workImg {
-        width: 180px;
-    }
-
-    .workCard {
-        width: 250px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .workImg {
-        width: 160px;
-    }
-
-    .workDiv {
-        width: 870px;
-    }
-}
-
-
-@media (max-width: 900px) {
-    .workDiv {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: auto;
-    }
-}
-
-@media (max-width: 643px) {
-    .workDiv {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .workImg {
-        width: 70%;
-    }
-}
-
-@media (max-width: 530px) {
-    .workImg {
-        width: 60%;
-    }
-
-    .workCard {
-        width: 200px;
-    }
-
-}
-
 @media (max-width: 485) {
     .contactBtn {
         max-width: 100px;
@@ -118,32 +58,7 @@
         font-size: 1.8rem;
     }
 
-    .workCard>p {
-        font-size: .8rem;
-    }
-
-    .workCard {
-        width: 180px;
-    }
-
     .contactBtn {
         max-width: 90px;
     }
-}
-
-@media (max-width: 375px) {
-
-    .workCard {
-        width: 170px;
-    }
-
-}
-
-
-@media (max-width: 336px) {
-
-    .workCard {
-        width: 150px;
-    }
-
 }
