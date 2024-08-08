@@ -116,8 +116,7 @@ export default function Journalism() {
             <img className={styles.logo} src="/jou.png" alt="Journalism icon" />
           </div>
           <div>
-            <p>As a journalism graduate, I have extensive experience with writing, interviewing, fact-checking, using AP style and other invaluable, transferable skills essential to the field.</p>
-            <p>Grammar and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story to tell, and journalists play a crucial role in bringing those stories to light.</p>
+            <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing those stories to light.</p>
             <p>However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
           </div>
           <div className={styles.pBreakDiv}>
