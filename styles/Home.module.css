@@ -48,39 +48,6 @@
   font-size: 2.5rem;
 }
 
-.workImg {
-  width: 200px;
-  height: auto;
-  cursor: pointer;
-}
-
-.workCard {
-  width: 250px;
-}
-
-.workDiv {
-  display: flex;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto;
-  padding-right: .5rem;
-  padding-left: .5rem;
-  padding-bottom: .5rem;
-}
-
-.bgColorDiv {
-  position: relative;
-  margin-left: -50vw;
-  padding-right: 7px;
-  left: 50%;
-  right: 50%;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  background-color: #d6e2e2;
-  padding-bottom: 20px;
-}
-
 .contactDiv {
   display: flex;
   justify-content: center;
@@ -123,42 +90,10 @@
   animation: bob 0.8s infinite;
 }
 
-@media (max-width: 1200px) {
-  .workImg {
-    width: 180px;
-  }
-
-  .workCard {
-    width: 250px;
-  }
-
-  .workDiv {
-    width: 950px;
-  }
-}
-
-@media (max-width: 1000px) {
-  .workImg {
-    width: 160px;
-  }
-
-  .workDiv {
-    width: 870px;
-  }
-}
-
 @media (max-width: 900px) {
   .img {
     max-width: 290px;
     height: auto;
-  }
-
-  .workDiv {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
-    row-gap: 20px;
-    width: auto;
   }
 
   .linkedInBtn {
@@ -189,7 +124,6 @@
     width: 120px;
   }
 }
-
 
 @media (max-width: 702px) {
 
@@ -225,19 +159,6 @@
 
   .mainHeading {
     font-size: 2rem;
-  }
-
-  .workDiv {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 20px;
-    row-gap: 20px;
-    justify-content: center;
-    width: 80%;
-  }
-
-  .workImg {
-    width: 70%;
   }
 
   .linkedInBtnDiv {
@@ -316,7 +237,6 @@
     margin-top: -15px;
     max-width: 425px;
   }
-
 }
 
 @media (max-width: 530px) {
@@ -329,22 +249,6 @@
 
   .introP {
     margin-top: -10px;
-  }
-
-  .workImg {
-    width: 60%;
-  }
-
-  .workDiv {
-    column-gap: 10px;
-  }
-
-  .workCard {
-    width: 200px;
-  }
-
-  .h3 {
-    font-size: 1rem;
   }
 }
 
@@ -393,9 +297,7 @@
 
 @media (max-width: 420px) {
 
-  .introP,
-  .workCard>p,
-  .bgColorContent>p {
+  .introP{
     font-size: .8rem;
   }
 
@@ -407,24 +309,12 @@
     gap: 20px;
   }
 
-  .workDiv {
-    column-gap: 0px;
-  }
-
-  .workCard {
-    width: 180px;
-  }
-
 }
 
 @media (max-width: 360px) {
 
   .contactBtn {
     max-height: 90px;
-  }
-
-  .workCard {
-    width: 170px;
   }
 
 }

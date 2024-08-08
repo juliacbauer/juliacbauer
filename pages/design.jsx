@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import styles from "../styles/Design.module.css"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styles from "../styles/Design.module.css";
 
 export default function Design() {
   return (

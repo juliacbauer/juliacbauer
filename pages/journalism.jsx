@@ -3,9 +3,42 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Jou.module.css";
 import Link from "next/link";
+import WorkSection from "../components/WorkSection/index";
 
 
 export default function Journalism() {
+
+  const works = [
+    {
+      link: "/journalism",
+      image: "/jou.png",
+      alt: "Journalism icon",
+      title: "Journalism",
+      description: "Compelling, informative stories.",
+    },
+    {
+      link: "/design",
+      image: "/design.png",
+      alt: "Design icon",
+      title: "Design",
+      description: "Effective, captivating designs.",
+    },
+    {
+      link: "/development",
+      image: "/dev.png",
+      alt: "Development icon",
+      title: "Development",
+      description: "Responsive, UX-optimized websites.",
+    },
+    {
+      link: "/fun",
+      image: "/finalpersonallogo.png",
+      alt: "Logo",
+      title: "Just for Fun",
+      description: "My artistic hobbies and passions.",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -26,8 +59,11 @@ export default function Journalism() {
           <br />
           <h2>WUFT</h2>
           <p>WUFT is a PBS member and NPR-affiliated news station covering 16 counties in North Central Florida. During my time as a reporter intern – producing both print and TV news stories – I learned invaluable, transferrable journalistic skills.</p>
-          <p>24-hour deadline? No problem thanks to my experience covering event stories. Need something written conscisely because of word count restrictions? Easy. And who has time for fluff in this age of shortened attention spans anyway.</p>
+          <p>24-hour deadline? No problem, thanks to my experience covering event stories. Need something written concisely because of word count restrictions? Easy. And who has time for fluff in this age of shortened attention spans anyway.</p>
           <br />
+          <div>
+            <WorkSection works={works} />
+          </div>
           <div>
             <div>
               <p>New jazz club and accomplished performer amplify Gainesville music scene</p>
@@ -47,6 +83,10 @@ export default function Journalism() {
           <p>Explain Wellness and Giggle/Giggle Jupiter</p>
           <br />
           <div>
+            <WorkSection works={works} />
+            {/* Other content */}
+          </div>
+          <div>
             <div>
               <p>Scale New Heights with Rockclimbing and Bouldering</p>
             </div>
@@ -64,6 +104,10 @@ export default function Journalism() {
           <h2>Florida Gator Magazine</h2>
           <p>Explain FL Gator Mag and Alumni Association</p>
           <br />
+          <div>
+            <WorkSection works={works} />
+            {/* Other content */}
+          </div>
           <div>
             <div>
               <p>

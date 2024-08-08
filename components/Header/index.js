@@ -3,10 +3,12 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function Header() {
+    
     const [displayLists, setDisplayLists] = useState(false);
     function onClickLists() {
         setDisplayLists((prevDisplayLists) => !prevDisplayLists);
     }
+    
     return (
         <header className={styles.container}>
             <div className={styles.logoLeft}>

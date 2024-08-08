@@ -6,6 +6,7 @@ export default function Footer() {
     const handleEmailClick = () => {
         window.location.href = `mailto:${email}`;
     }
+    
     return (
         <footer className={styles.container}>
             <div className={styles.linkDiv}>
