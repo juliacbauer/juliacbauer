@@ -12,19 +12,6 @@
     height: auto;
 }
 
-.pBreak {
-    max-width: 250px;
-    height: auto;
-}
-
-.pBreakDiv {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .spacer {
     height: 40px;
 }

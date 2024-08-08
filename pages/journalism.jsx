@@ -116,12 +116,9 @@ export default function Journalism() {
             <img className={styles.logo} src="/jou.png" alt="Journalism icon" />
           </div>
           <div>
-            <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing those stories to light.</p>
-            <p>However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
+            <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
           </div>
-          <div className={styles.pBreakDiv}>
-          <img className={styles.pBreak} src="/pBreak.png" alt="Break in section icon"/>
-          </div>
+          <div className={styles.smallSpacer} />
           <h2>WUFT</h2>
           <p>WUFT is a PBS member news station covering 16 counties in North Central Florida. As a reporter intern, I produced hard news stories in a multimedia format.</p>
           <p>24-hour deadline? No problem, thanks to my experience covering event stories. Need something written concisely because of word count restrictions? Easy. And in this age of shortened attention spans, there's no time for fluff anyway.</p>
@@ -135,6 +132,7 @@ export default function Journalism() {
           <p>I started as an editorial intern in January 2022, writing print stories for Giggle and Wellness360 and managing the print event calendars. I loved writing about anything from school district accomplishments to fitness, so much so that I continued interning through summer 2023.</p>
           <p>Beginning that fall, my role grew into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and SEO optimization.</p>
           <div className={styles.spacer} />
+          <div className={styles.smallSpacer} />
           <div>
             <WorkSection title="Highlights" works={works2} />
           </div>
@@ -143,6 +141,7 @@ export default function Journalism() {
           <p>At the UF Alumni Association, I was a strategic communications intern for Florida Gator Magazine, the quarterly print publication uniting the worldwide network of Gator alumni.</p>
           <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about a random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
           <div className={styles.spacer} />
+          <div className={styles.smallSpacer} />
           <div>
             <WorkSection title="Highlights" works={works3} />
           </div>
