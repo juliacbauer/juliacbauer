@@ -2,6 +2,8 @@
     width: 200px;
     height: auto;
     cursor: pointer;
+    margin-left: 4%;
+    border-radius: 10px;
 }
 
 .workCard {
@@ -14,22 +16,20 @@
     justify-content: space-between;
     width: 1100px;
     margin: 0 auto;
-    padding-right: .5rem;
-    padding-left: .5rem;
-    padding-bottom: .5rem;
 }
 
 .bgColorDiv {
     position: relative;
+    padding-top: 50px;
     margin-left: -50vw;
-    padding-right: 7px;
+    padding-right: 11px;
     left: 50%;
     right: 50%;
-    width: 100vw;
+    width: 99vw;
     display: flex;
     flex-direction: column;
     background-color: #d6e2e2;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
 @keyframes bob {
@@ -51,13 +51,6 @@
 }
 
 @media (max-width: 1200px) {
-    .workImg {
-        width: 180px;
-    }
-
-    .workCard {
-        width: 250px;
-    }
 
     .workDiv {
         width: 950px;
@@ -66,7 +59,7 @@
 
 @media (max-width: 1000px) {
     .workImg {
-        width: 160px;
+        width: 180px;
     }
 
     .workDiv {
@@ -85,7 +78,6 @@
     }
 }
 
-
 @media (max-width: 643px) {
 
     .workDiv {
@@ -96,53 +88,55 @@
         justify-content: center;
         width: 80%;
     }
-
-    .workImg {
-        width: 70%;
-    }
 }
 
 @media (max-width: 530px) {
-
-    .workImg {
-        width: 60%;
-    }
-
-    .workDiv {
-        column-gap: 10px;
-    }
-
     .workCard {
         width: 200px;
     }
 
     .h3 {
         font-size: 1rem;
-      }
+    }
 }
 
 @media (max-width: 420px) {
-    
+
     .workCard>p,
     .bgColorContent>p {
         font-size: .8rem;
     }
 
-
-    .workDiv {
-        column-gap: 0px;
+    .workImg {
+        width: 150px;
     }
 
     .workCard {
-        width: 180px;
+        width: 160px;
     }
 
 }
 
 @media (max-width: 360px) {
 
+    .workImg {
+        width: 140px;
+    }
+
     .workCard {
-        width: 170px;
+        width: 150px;
+    }
+
+}
+
+@media (max-width: 330px) {
+
+    .workImg {
+        width: 130px;
+    }
+
+    .workCard {
+        width: 140px;
     }
 
 }

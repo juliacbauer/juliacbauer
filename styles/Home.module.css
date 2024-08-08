@@ -6,6 +6,14 @@
   margin-top: 30px;
 }
 
+.spacer {
+  height: 80px;
+}
+
+.smallSpacer {
+  height: 20px;
+}
+
 .heroContent {
   flex: 1;
   margin-right: 25px;
@@ -58,11 +66,6 @@
 .contactBtn {
   max-width: 120px;
   height: auto;
-}
-
-.bgColorContent {
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 .img {

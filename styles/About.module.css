@@ -7,6 +7,14 @@
   height: auto;
 }
 
+.spacer {
+  height: 40px;
+}
+
+.smallSpacer {
+  height: 20px;
+}
+
 .aboutDiv {
   display: flex;
   gap: 50px;

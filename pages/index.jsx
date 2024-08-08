@@ -70,20 +70,16 @@ export default function Home() {
             <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
           </Link>
         </div>
-        <br />
-        <br />
-        <br />
+        <div className={styles.spacer} />
         <div className={styles.section2}>
-          <br />
           <div>
             <div>
               <WorkSection title="My Work" works={works} />
             </div>
           </div>
-          <br />
           <div>
-            <div className={styles.bgColorContent}>
-              <br />
+          <div className={styles.smallSpacer} />
+            <div>
               <h2>Contact</h2>
               <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
               <br />
@@ -95,7 +91,7 @@ export default function Home() {
                   <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.png" alt="Email button" />
                 </btn>
               </div>
-              <br />
+              <div className={styles.smallSpacer} />
             </div>
           </div>
         </div>

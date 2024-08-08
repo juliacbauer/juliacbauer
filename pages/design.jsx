@@ -20,24 +20,24 @@ export default function Design() {
               <img className={styles.logo} src="/design.png" alt="Design icon" />
             </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
-            <br />
+            <div className={styles.smallSpacer} />
             <h2>Winterborn</h2>
             <p>Explain Winterborn</p>
-            <br />
+            <div className={styles.smallSpacer} />
             <h2>Illustrator</h2>
             <p>Portiko</p>
             <p>Florida Kids Eat Well</p>
-            <br />
+            <div className={styles.smallSpacer} />
             <h2>InDesign</h2>
             <p>Cook book</p>
-            <br />
+            <div className={styles.smallSpacer} />
             <h2>Photoshop</h2>
             <p>Ad campaign</p>
             <p>Email blast</p>
             <p>Alex G website</p>
           </div>
         </div>
-        <br />
+        <div className={styles.smallSpacer} />
       </main>
       <Footer />
     </>

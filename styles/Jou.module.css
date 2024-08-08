@@ -11,12 +11,28 @@
     height: auto;
 }
 
+.spacer {
+    height: 40px;
+}
+
+.smallSpacer {
+    height: 20px;
+}
+
+.linkedInDiv {
+    text-align: center;
+}
+
 .workImg {
     max-width: 200px;
     height: auto;
     margin: auto 0;
     cursor: pointer;
     margin-left: 13px;
+}
+
+.main>h2 {
+    text-align: center;
 }
 
 @keyframes bob {

@@ -11,6 +11,10 @@
     height: auto;
 }
 
+.smallSpacer {
+    height: 20px;
+}
+
 @media (max-width: 420px) {
     .logo {
         max-width: 35px;
