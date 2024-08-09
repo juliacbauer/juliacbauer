@@ -119,7 +119,7 @@ export default function Journalism() {
               <LazyLoadedIcon className={styles.logo} src="/jou.png" alt="Journalism icon" />
             </div>
             <div>
-              <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
+              <p>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
             </div>
           </ScrollTriggeredSection>
           <div className={styles.smallSpacer} />
