@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./Work.module.css";
+import ScrollTriggeredSection from "../Scroll/index";
 
 export default function WorkSection({ title, works }) {
   return (
@@ -8,6 +9,7 @@ export default function WorkSection({ title, works }) {
       <div className={styles.workDiv}>
         {works.map((work, index) => (
           <div key={index} className={styles.workCard}>
+            <ScrollTriggeredSection>
             <Link href={work.link} target={work.target || "_self"}>
               <img className={`${styles.bob} ${styles.workImg}`} 
               src={work.image} alt={work.alt}
@@ -16,6 +18,7 @@ export default function WorkSection({ title, works }) {
             </Link>
             <h3 className={styles.h3}>{work.title}</h3>
             <p>{work.description}</p>
+            </ScrollTriggeredSection>
           </div>
         ))}
       </div>
