@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
+import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function About() {
   return (
@@ -21,10 +23,14 @@ export default function About() {
               <ScrollTriggeredSection>
                 <div className={styles.logoDiv}>
                   <h1 className={styles.headings}>About Me</h1>
-                  <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+                  <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
                 </div>
                 <div className={styles.aboutDiv}>
-                  <img className={styles.aboutImg} src="/jouMeGraphic.png" alt="Headshot" />
+                  <LazyLoadedImage
+                    src="/jouMeGraphic.png"
+                    alt="Headshot"
+                    className={styles.aboutImg}
+                  />
                   <p className={styles.aboutP}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam.</p>
                 </div>
               </ScrollTriggeredSection>

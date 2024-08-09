@@ -5,7 +5,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
-
+import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Home() {
 
@@ -61,7 +62,7 @@ export default function Home() {
             <div className={styles.heroContent}>
               <div className={styles.logoDiv}>
                 <h1 className={styles.mainHeading}>Julia Bauer</h1>
-                <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
               </div>
               <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
                 digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
@@ -70,7 +71,7 @@ export default function Home() {
           </div>
           <div className={styles.linkedInBtnDiv}>
             <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-              <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
+            <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
             </Link>
           </div>
         </ScrollTriggeredSection>

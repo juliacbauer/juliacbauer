@@ -4,6 +4,8 @@ import Footer from "../components/Footer";
 import styles from "../styles/Dev.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
+import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Dev() {
   return (
@@ -20,7 +22,7 @@ export default function Dev() {
             <ScrollTriggeredSection>
               <div className={styles.logoDiv}>
                 <h1 className={styles.h1}>Development</h1>
-                <img className={styles.logo} src="/dev.png" alt="Development icon" />
+                <LazyLoadedIcon className={styles.logo} src="/dev.png" alt="Development icon" />
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>

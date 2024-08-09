@@ -3,6 +3,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Design.module.css";
 import ScrollTriggeredSection from "../components/Scroll/index";
+import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Design() {
   return (
@@ -19,7 +21,7 @@ export default function Design() {
             <ScrollTriggeredSection>
               <div className={styles.logoDiv}>
                 <h1 className={styles.h1}>Design</h1>
-                <img className={styles.logo} src="/design.png" alt="Design icon" />
+                <LazyLoadedIcon className={styles.logo} src="/design.png" alt="Design icon" />
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>

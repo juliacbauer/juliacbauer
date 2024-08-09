@@ -5,6 +5,8 @@ import styles from "../styles/Jou.module.css";
 import Link from "next/link";
 import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
+import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Journalism() {
 
@@ -114,7 +116,7 @@ export default function Journalism() {
           <ScrollTriggeredSection>
             <div className={styles.logoDiv}>
               <h1 className={styles.h1}>Journalism</h1>
-              <img className={styles.logo} src="/jou.png" alt="Journalism icon" />
+              <LazyLoadedIcon className={styles.logo} src="/jou.png" alt="Journalism icon" />
             </div>
             <div>
               <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>

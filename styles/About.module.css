@@ -22,7 +22,7 @@
 
 .aboutP {
   margin-top: 40px;
-  max-width: 465px;
+  max-width: 60%;
   object-fit: contain;
 }
 
@@ -40,7 +40,6 @@
   justify-content: center;
   gap: 10px;
 }
-
 
 @keyframes bob {
   0% {
@@ -92,6 +91,7 @@
 
   .aboutP {
     max-width: 800px;
+    margin-top: 30px;
   }
 
 }
