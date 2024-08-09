@@ -4,6 +4,8 @@ import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import WorkSection from "../components/WorkSection/index";
+import ScrollTriggeredSection from "../components/Scroll/index";
+
 
 export default function Home() {
 
@@ -54,46 +56,52 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <div className={styles.heroSection}>
-          <div className={styles.heroContent}>
-            <div className={styles.logoDiv}>
-              <h1 className={styles.mainHeading}>Julia Bauer</h1>
-              <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+        <ScrollTriggeredSection>
+          <div className={styles.heroSection}>
+            <div className={styles.heroContent}>
+              <div className={styles.logoDiv}>
+                <h1 className={styles.mainHeading}>Julia Bauer</h1>
+                <img className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+              </div>
+              <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
+                digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
             </div>
-            <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
-              digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
+            <img className={styles.img} src="/meMain.png" alt="Headshot" />
           </div>
-          <img className={styles.img} src="/meMain.png" alt="Headshot" />
-        </div>
-        <div className={styles.linkedInBtnDiv}>
-          <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-            <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
-          </Link>
-        </div>
+          <div className={styles.linkedInBtnDiv}>
+            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+              <img className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
+            </Link>
+          </div>
+        </ScrollTriggeredSection>
         <div className={styles.spacer} />
         <div className={styles.section2}>
-          <div>
+          <ScrollTriggeredSection>
             <div>
-              <WorkSection title="Explore My Work" works={works} />
-            </div>
-          </div>
-          <div>
-          <div className={styles.medSpacer} />
-            <div>
-              <h2>Contact Me</h2>
-              <div className={styles.smallerSpacer} />
-              <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
-              <div className={styles.smallSpacer} />
-              <div className={styles.contactDiv}>
-                <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-                  <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
-                </Link>
-                <btn>
-                  <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.png" alt="Email button" />
-                </btn>
+              <div>
+                <WorkSection title="Explore My Work" works={works} />
               </div>
-              <div className={styles.smallSpacer} />
             </div>
+          </ScrollTriggeredSection>
+          <div>
+            <div className={styles.medSpacer} />
+            <ScrollTriggeredSection>
+              <div>
+                <h2>Contact Me</h2>
+                <div className={styles.smallerSpacer} />
+                <p>Want to stay in touch? Connect with me through LinkedIn or email.</p>
+                <div className={styles.smallSpacer} />
+                <div className={styles.contactDiv}>
+                  <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+                    <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+                  </Link>
+                  <btn>
+                    <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.png" alt="Email button" />
+                  </btn>
+                </div>
+                <div className={styles.smallSpacer} />
+              </div>
+            </ScrollTriggeredSection>
           </div>
         </div>
       </main>

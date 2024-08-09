@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import styles from "../styles/Jou.module.css";
 import Link from "next/link";
 import WorkSection from "../components/WorkSection/index";
-
+import ScrollTriggeredSection from "../components/Scroll/index";
 
 export default function Journalism() {
 
@@ -111,49 +111,65 @@ export default function Journalism() {
       <Header />
       <main>
         <div className={styles.main}>
-          <div className={styles.logoDiv}>
-            <h1 className={styles.h1}>Journalism</h1>
-            <img className={styles.logo} src="/jou.png" alt="Journalism icon" />
-          </div>
-          <div>
-            <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
-          </div>
+          <ScrollTriggeredSection>
+            <div className={styles.logoDiv}>
+              <h1 className={styles.h1}>Journalism</h1>
+              <img className={styles.logo} src="/jou.png" alt="Journalism icon" />
+            </div>
+            <div>
+              <p>Grammar and other technical skills aside, journalism is all about storytelling. Everyone has a story to tell, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
+            </div>
+          </ScrollTriggeredSection>
           <div className={styles.smallSpacer} />
-          <h2>WUFT</h2>
-          <p>WUFT is a PBS member news station covering 16 counties in North Central Florida. As a reporter intern, I produced hard news stories in a multimedia format.</p>
-          <p>24-hour deadline? No problem, thanks to my experience covering event stories. Need something written concisely because of word count restrictions? Easy. And in this age of shortened attention spans, there's no time for fluff anyway.</p>
+          <ScrollTriggeredSection>
+            <h2>WUFT</h2>
+            <p>WUFT is a PBS member news station covering 16 counties in North Central Florida. As a reporter intern, I produced hard news stories in a multimedia format.</p>
+            <p>24-hour deadline? No problem, thanks to my experience covering event stories. Need something written concisely because of word count restrictions? Easy. And in this age of shortened attention spans, there's no time for fluff anyway.</p>
+          </ScrollTriggeredSection>
           <div className={styles.spacer} />
-          <div>
-            <WorkSection title="Highlights" works={works1} />
-          </div>
+          <ScrollTriggeredSection>
+            <div>
+              <WorkSection title="Highlights" works={works1} />
+            </div>
+          </ScrollTriggeredSection>
           <div className={styles.spacer} />
-          <h2>Irving Publications</h2>
-          <p>Established in 2009, Irving Publications, LLC produces two bimonthly award-winning publications: Giggle Magazine, the No. 1 parenting resource in Gainesville, and Wellness360 Magazine, a health and wellness publication and has recently expanded to include Giggle Magazine Jupiter.</p>
-          <p>I started as an editorial intern in January 2022, writing print stories for Giggle and Wellness360 and managing the print event calendars. I loved writing about anything from school district accomplishments to fitness, so much so that I continued interning through summer 2023.</p>
-          <p>Beginning that fall, my role grew into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and SEO optimization.</p>
-          <div className={styles.spacer} />
-          <div className={styles.smallSpacer} />
-          <div>
-            <WorkSection title="Highlights" works={works2} />
-          </div>
-          <div className={styles.spacer} />
-          <h2>UF Alumni Association</h2>
-          <p>At the UF Alumni Association, I was a strategic communications intern for Florida Gator Magazine, the quarterly print publication uniting the worldwide network of Gator alumni.</p>
-          <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about a random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
+          <ScrollTriggeredSection>
+            <h2>Irving Publications</h2>
+            <p>Established in 2009, Irving Publications, LLC produces two bimonthly award-winning publications: Giggle Magazine, the No. 1 parenting resource in Gainesville, and Wellness360 Magazine, a health and wellness publication and has recently expanded to include Giggle Magazine Jupiter.</p>
+            <p>I started as an editorial intern in January 2022, writing print stories for Giggle and Wellness360 and managing the print event calendars. I loved writing about anything from school district accomplishments to fitness, so much so that I continued interning through summer 2023.</p>
+            <p>Beginning that fall, my role grew into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and SEO optimization.</p>
+          </ScrollTriggeredSection>
           <div className={styles.spacer} />
           <div className={styles.smallSpacer} />
-          <div>
-            <WorkSection title="Highlights" works={works3} />
-          </div>
+          <ScrollTriggeredSection>
+            <div>
+              <WorkSection title="Highlights" works={works2} />
+            </div>
+          </ScrollTriggeredSection>
           <div className={styles.spacer} />
-          <div className={styles.linkedInDiv}>
-            <h2>See More</h2>
-            <p>Read all 100+ of my publications on LinkedIn.</p>
-            <br />
-            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-              <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
-            </Link>
-          </div>
+          <ScrollTriggeredSection>
+            <h2>UF Alumni Association</h2>
+            <p>At the UF Alumni Association, I was a strategic communications intern for Florida Gator Magazine, the quarterly print publication uniting the worldwide network of Gator alumni.</p>
+            <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about a random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
+          </ScrollTriggeredSection>
+          <div className={styles.spacer} />
+          <div className={styles.smallSpacer} />
+          <ScrollTriggeredSection>
+            <div>
+              <WorkSection title="Highlights" works={works3} />
+            </div>
+          </ScrollTriggeredSection>
+          <div className={styles.spacer} />
+          <ScrollTriggeredSection>
+            <div className={styles.linkedInDiv}>
+              <h2>See More</h2>
+              <p>Read all 100+ of my publications on LinkedIn.</p>
+              <br />
+              <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+                <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+              </Link>
+            </div>
+          </ScrollTriggeredSection>
         </div>
         <div className={styles.spacer} />
       </main>
