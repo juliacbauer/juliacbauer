@@ -13,7 +13,7 @@ export default function About() {
       <Head>
         <title>About</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/faviconpersonal.webp" />
       </Head>
       <Header />
       <main>
@@ -23,11 +23,11 @@ export default function About() {
               <ScrollTriggeredSection>
                 <div className={styles.logoDiv}>
                   <h1 className={styles.headings}>About Me</h1>
-                  <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+                  <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
                 </div>
                 <div className={styles.aboutDiv}>
                   <LazyLoadedImage
-                    src="/jouMeGraphic.png"
+                    src="/jouMeGraphic.webp"
                     alt="Headshot"
                     className={styles.aboutImg}
                   />

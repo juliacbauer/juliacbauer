@@ -108,7 +108,7 @@ export default function Journalism() {
       <Head>
         <title>Journalism</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/faviconpersonal.webp" />
       </Head>
       <Header />
         <ScrollTriggeredSection>
@@ -122,7 +122,7 @@ export default function Journalism() {
             <div className={styles.smallSpacer} />
             <div className={styles.logoDiv}>
               <h1 className={styles.h1}>Storytelling</h1>
-              <LazyLoadedIcon className={styles.logo} src="/jou.png" alt="Journalism icon" />
+              <LazyLoadedIcon className={styles.logo} src="/jouicon.webp" alt="Journalism icon" />
             </div>
             <p>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Rather, a good journalist allows the narrative to reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
           </ScrollTriggeredSection>

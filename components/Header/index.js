@@ -13,7 +13,7 @@ export default function Header() {
         <header className={styles.container}>
             <div className={styles.logoLeft}>
                 <p>
-                    <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.png" alt="Logo" /></Link>
+                    <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.webp" alt="Logo" /></Link>
                 </p>
             </div>
             <div className={styles.rightLinks}>

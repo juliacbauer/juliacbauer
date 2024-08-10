@@ -6,6 +6,23 @@
     margin-bottom: -15px;
 }
 
+.imgContainer {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 2273 / 1131;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImg {
+    width: 101vw;
+    height: auto;
+    margin-left: -1.05rem;
+    object-fit: cover;
+}
+
 .logo {
     max-width: 40px;
     height: auto;
@@ -50,6 +67,14 @@
     max-width: 120px;
     height: auto;
 }
+
+@media (max-width: 600px) {
+
+    .h1 {
+        font-size: 1.8rem;
+    }
+}
+
 
 @media (max-width: 485px) {
     .btn {

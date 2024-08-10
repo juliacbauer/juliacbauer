@@ -6,6 +6,24 @@
     margin-bottom: -15px;
 }
 
+.imgContainer {
+    position: relative;
+    width: 100vw;
+    height: auto;
+    aspect-ratio: 2273 / 1131;
+    overflow: hidden;
+    margin-left: -.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainImg {
+    max-width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
 .logo {
     max-width: 40px;
     height: auto;

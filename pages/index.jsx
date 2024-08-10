@@ -19,28 +19,28 @@ export default function Home() {
   const works = [
     {
       link: "/journalism",
-      image: "/jou.png",
+      image: "/jouicon.webp",
       alt: "Journalism icon",
       title: "Journalism",
       description: "Compelling, informative stories.",
     },
     {
       link: "/design",
-      image: "/design.png",
+      image: "/designicon.webp",
       alt: "Design icon",
       title: "Design",
       description: "Effective, captivating designs.",
     },
     {
       link: "/development",
-      image: "/dev.png",
+      image: "/devicon.webp",
       alt: "Development icon",
       title: "Development",
       description: "Responsive, UX-optimized websites.",
     },
     {
       link: "/fun",
-      image: "/finalpersonallogo.png",
+      image: "/finalpersonallogo.webp",
       alt: "Logo",
       title: "Just for Fun",
       description: "My artistic hobbies and passions.",
@@ -53,7 +53,7 @@ export default function Home() {
         <title>Julia Bauer</title>
         <meta name="description" content="Portfolio site for Julia Bauer" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/faviconpersonal.webp" />
       </Head>
       <Header />
       <main>
@@ -62,16 +62,16 @@ export default function Home() {
             <div className={styles.heroContent}>
               <div className={styles.logoDiv}>
                 <h1 className={styles.mainHeading}>Julia Bauer</h1>
-                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.png" alt="Logo" />
+                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
               </div>
               <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
                 digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
             </div>
-            <img className={styles.img} src="/meMain.png" alt="Headshot" />
+            <img className={styles.img} src="/meMain.webp" alt="Headshot" />
           </div>
           <div className={styles.linkedInBtnDiv}>
             <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-            <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtn1.png" alt="LinkedIn button" />
+            <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" />
             </Link>
           </div>
         </ScrollTriggeredSection>
@@ -94,10 +94,10 @@ export default function Home() {
                 <div className={styles.smallSpacer} />
                 <div className={styles.contactDiv}>
                   <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-                    <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+                    <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.webp" alt="LinkedIn button" />
                   </Link>
                   <btn>
-                    <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.png" alt="Email button" />
+                    <img className={`${styles.bob} ${styles.contactBtn}`} onClick={handleEmailClick} style={{ cursor: "pointer" }} src="/emailbtn.webp" alt="Email button" />
                   </btn>
                 </div>
                 <div className={styles.smallSpacer} />

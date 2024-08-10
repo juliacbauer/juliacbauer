@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Design.module.css";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedMain from "../components/LazyLoad/index";
 import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Design() {
@@ -12,16 +12,22 @@ export default function Design() {
       <Head>
         <title>Design</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.png" />
+        <link rel="icon" href="/faviconpersonal.webp" />
       </Head>
       <Header />
+      <ScrollTriggeredSection>
+        <div className={styles.imgContainer}>
+          <LazyLoadedMain src="/designbg.webp" className={styles.mainImg} alt="" />
+        </div>
+      </ScrollTriggeredSection>
       <main>
         <div>
           <div className={styles.main}>
             <ScrollTriggeredSection>
+              <div className={styles.smallSpacer} />
               <div className={styles.logoDiv}>
                 <h1 className={styles.h1}>Design</h1>
-                <LazyLoadedIcon className={styles.logo} src="/design.png" alt="Design icon" />
+                <LazyLoadedIcon className={styles.logo} src="/designicon.webp" alt="Design icon" />
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>
