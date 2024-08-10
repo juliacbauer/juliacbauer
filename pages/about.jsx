@@ -18,7 +18,7 @@ export default function About() {
       <Header />
       <main>
         <div>
-          <div>
+          <div className={styles.main}>
             <div>
               <ScrollTriggeredSection>
                 <div className={styles.logoDiv}>

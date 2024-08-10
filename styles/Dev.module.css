@@ -15,6 +15,10 @@
     height: 40px;
 }
 
+.main>div>h2 {
+    text-align: center;
+}
+
 .smallSpacer {
     height: 20px;
 }
@@ -69,7 +73,7 @@
     }
 
     .h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 }
 

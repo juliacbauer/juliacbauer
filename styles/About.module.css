@@ -7,6 +7,10 @@
   height: auto;
 }
 
+.main>div>h2 {
+  text-align: center;
+}
+
 .spacer {
   height: 40px;
 }

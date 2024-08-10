@@ -5,8 +5,8 @@ import styles from "../styles/Jou.module.css";
 import Link from "next/link";
 import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedImage from "../components/LazyLoad/index";
-import LazyLoadedIcon from "../components/LazyIcon";
+import LazyLoadedIcon from "../components/LazyIcon/index";
+import LazyLoadedMain from "../components/LazyIcon";
 
 export default function Journalism() {
 
@@ -111,16 +111,18 @@ export default function Journalism() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
+      <ScrollTriggeredSection>
+        <LazyLoadedMain src="/joubg.png" className={styles.mainImg} alt="" />
+      </ScrollTriggeredSection>
       <main>
         <div className={styles.main}>
           <ScrollTriggeredSection>
+            <div className={styles.smallSpacer} />
             <div className={styles.logoDiv}>
-              <h1 className={styles.h1}>Journalism</h1>
+              <h1 className={styles.h1}>Storytelling</h1>
               <LazyLoadedIcon className={styles.logo} src="/jou.png" alt="Journalism icon" />
             </div>
-            <div>
-              <p>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Instead, they let the narrative reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
-            </div>
+            <p>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Rather, a good journalist allows the narrative to reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
           </ScrollTriggeredSection>
           <div className={styles.smallSpacer} />
           <ScrollTriggeredSection>

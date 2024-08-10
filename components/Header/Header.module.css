@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: -5px;
+    margin-top: -5px;
 }
 
 .displayLists {
@@ -33,7 +35,7 @@
     display: flex;
     gap: 30px;
     padding-right: 1rem;
-    margin-top: -20px;
+    margin-top: -12px;
 }
 
 .logo {

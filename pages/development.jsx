@@ -18,7 +18,7 @@ export default function Dev() {
       <Header />
       <main>
         <div>
-          <div>
+          <div className={styles.main}>
             <ScrollTriggeredSection>
               <div className={styles.logoDiv}>
                 <h1 className={styles.h1}>Development</h1>
@@ -28,8 +28,8 @@ export default function Dev() {
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
-              <h2>Capstone Project</h2>
-              <p>Cinememo</p>
+              <h2>Cinememo</h2>
+              <p>Capstone Project</p>
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>

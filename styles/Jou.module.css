@@ -7,6 +7,11 @@
     margin-top: -10px;
 }
 
+.mainImg {
+    width: 100vw;
+    margin-left: -.5rem;
+}
+
 .logo {
     max-width: 40px;
     height: auto;
@@ -32,7 +37,8 @@
     margin-left: 13px;
 }
 
-.main>div>h2 {
+.main>div>h2,
+.h1 {
     text-align: center;
 }
 
@@ -60,7 +66,14 @@
     margin-left: 8px;
 }
 
-@media (max-width: 485) {
+@media (max-width: 600px) {
+
+    .h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 485px) {
     .contactBtn {
         max-width: 100px;
     }
@@ -76,7 +89,7 @@
     }
 
     .h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .contactBtn {

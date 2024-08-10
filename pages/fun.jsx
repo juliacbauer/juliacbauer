@@ -17,7 +17,7 @@ export default function Fun() {
       <Header />
       <main>
         <div>
-          <div>
+          <div className={styles.main}>
             <ScrollTriggeredSection>
               <div className={styles.logoDiv}>
                 <h1 className={styles.h1}>Just For Fun</h1>
