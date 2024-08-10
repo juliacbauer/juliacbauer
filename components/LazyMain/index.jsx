@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import styles from "./LazyMain.module.css";
 
 export default function LazyLoadedMain({ src, alt, className }) {
   return (
@@ -7,10 +6,10 @@ export default function LazyLoadedMain({ src, alt, className }) {
       <Image
         alt={alt}
         src={src}
-        layout="responsive"
-        width={2273} // Specify your original image width
-        height={1131} // Specify your original image height
-        priority={true} // Preload the image for LCP
+        layout="responsive" /* Automatically calculates dimensions */
+        width={2273} /* Original image width */
+        height={1131} /* Original image height */
+        priority={true} /* Preload the image */
         className={className}
       />
     </div>

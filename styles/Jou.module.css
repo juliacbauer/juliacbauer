@@ -7,9 +7,21 @@
     margin-top: -10px;
 }
 
-.mainImg {
+.imgContainer {
+    position: relative;
     width: 100vw;
+    height: auto;
+    aspect-ratio: 2273 / 1131;
+    /* Modern way to set aspect ratio directly */
+    overflow: hidden;
     margin-left: -.5rem;
+}
+
+.mainImg {
+    max-width: 100vw;
+    height: auto;
+    object-fit: cover;
+    /* Ensures the image covers the entire container */
 }
 
 .logo {
@@ -35,13 +47,6 @@
     margin: auto 0;
     cursor: pointer;
     margin-left: 13px;
-}
-
-.imgContainer {
-    position: relative;
-    max-width: 100vw;
-    width: 100%;
-    min-height: auto;
 }
 
 .main>div>h2,
