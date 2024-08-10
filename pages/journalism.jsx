@@ -14,28 +14,28 @@ export default function Journalism() {
     {
       link: "https://www.wuft.org/education/2022-11-14/antisemitism-continues-after-fl-ga-game-and-uf-students-are-uniting-against-it",
       target: "_blank",
-      image: "/flga.png",
+      image: "/uf.webp",
       alt: "Students at Hillel booth",
       description: "UF Students Unite Against Antisemitism After FL-GA Game",
     },
     {
       link: "https://www.wuft.org/entertainment/2022-10-27/new-jazz-club-and-accomplished-performer-amplify-gainesville-music-scene",
       target: "_blank",
-      image: "/jazz.png",
+      image: "/jazz.webp",
       alt: "Performers playing saxophone and EVI instruments",
       description: "Amplifying the Gainesville Music Scene",
     },
     {
       link: "https://www.youtube.com/watch?v=vCRSE-j3XrI",
       target: "_blank",
-      image: "/skate.png",
+      image: "/skate.webp",
       alt: "Kids sitting on skate ramp",
       description: "Local Skate Shop Helps Kids Build Confidence",
     },
     {
       link: "https://www.wuft.org/entertainment/2022-09-24/battle-of-the-bands-raises-over-25000-to-help-end-homelessness-in-gainesville",
       target: "_blank",
-      image: "/band.png",
+      image: "/band.webp",
       alt: "People clapping for a concert on stage",
       description: "Battle of the Bands Raises over $25,000 for Homelessness",
     },
@@ -45,28 +45,28 @@ export default function Journalism() {
     {
       link: "https://wellness360magazine.com/canine-epilepsy-how-this-disorder-can-affect-your-pet/",
       target: "_blank",
-      image: "/rico.png",
+      image: "/rico.webp",
       alt: "Small Yorkie dog",
       description: "Canine Epilepsy: How This Disorder Can Affect Your Pet",
     },
     {
       link: "https://www.gigglemagazine.com/the-clt-a-new-sat-and-act-alternative/",
       target: "_blank",
-      image: "/clt.png",
+      image: "/clt.webp",
       alt: "Standardized test form and pencil",
       description: "The CLT: A New SAT and ACT Alternative",
     },
     {
       link: "https://wellness360magazine.com/past_issues/wellness360-may-june-2022/",
       target: "_blank",
-      image: "/rock.png",
+      image: "/rock.webp",
       alt: "Person climbing an orange canyon",
       description: "Scale New Heights with Rock Climbing and Bouldering",
     },
     {
       link: "https://www.gigglemagazine.com/the-new-florida-social-media-ban-bill-and-what-it-means/",
       target: "_blank",
-      image: "/smban.png",
+      image: "/smban.webp",
       alt: "Children sitting at desks in a classroom",
       description: "The New Florida “Social Media Ban” Bill and What it Means",
     },
@@ -76,28 +76,28 @@ export default function Journalism() {
     {
       link: "https://higherlogicdownload.s3.amazonaws.com/UFAA/342da081-b4f0-488d-a6e1-44fb0861cadb/UploadedImages/FloridaGATOR/FLGAI_Spring_2023_WEB.pdf",
       target: "_blank",
-      image: "/roomies.png",
+      image: "/roomies.webp",
       alt: "2 girl college roommates",
       description: "In Praise of Random Roomies & Real Talk with RAs",
     },
     {
       link: "https://higherlogicdownload.s3.amazonaws.com/UFAA/342da081-b4f0-488d-a6e1-44fb0861cadb/UploadedImages/FloridaGATOR/FloridaGator_Summer2022.pdf",
       target: "_blank",
-      image: "/ukraine.png",
+      image: "/ukraine.webp",
       alt: "UF Century Tower illuminated by yellow and blue lights",
       description: "Yellow and Blue Solidarity: Gators Take Action",
     },
     {
       link: "https://higherlogicdownload.s3.amazonaws.com/UFAA/342da081-b4f0-488d-a6e1-44fb0861cadb/UploadedImages/FloridaGATOR/FLGator_Mag_Fall_2023_Online.pdf",
       target: "_blank",
-      image: "/moving.png",
+      image: "/moving.webp",
       alt: "Dorm move-in items",
       description: "Dorm Sweet Dorm & What Moves In Must Move Out",
     },
     {
       link: "https://higherlogicdownload.s3.amazonaws.com/UFAA/342da081-b4f0-488d-a6e1-44fb0861cadb/UploadedImages/FloridaGATOR/FLGator_Mag_Fall_2023_Online.pdf",
       target: "_blank",
-      image: "/scooter.png",
+      image: "/scooter.webp",
       alt: "Tortoise next to UF gnome statue",
       description: "The Furry, Feathery and Scaly Members of the Gator Nation",
     },
@@ -113,7 +113,7 @@ export default function Journalism() {
       <Header />
         <ScrollTriggeredSection>
           <div className={styles.imgContainer}>
-          <LazyLoadedMain src="/joubg.png" className={styles.mainImg} alt="" />
+          <LazyLoadedMain src="/joubg.webp" className={styles.mainImg} alt="" />
           </div>
         </ScrollTriggeredSection>
       <main>

@@ -1,15 +1,16 @@
-import React from 'react';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import Image from 'next/image';
 import styles from "./LazyMain.module.css";
 
 export default function LazyLoadedMain({ src, alt, className }) {
   return (
     <div className={styles.imgContainer}>
-      <LazyLoadImage
+      <Image
         alt={alt}
         src={src}
-        effect="blur"
+        layout="responsive"
+        width={2273} // Specify your original image width
+        height={1131} // Specify your original image height
+        priority={true} // Preload the image for LCP
         className={className}
       />
     </div>
