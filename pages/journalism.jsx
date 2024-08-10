@@ -111,9 +111,11 @@ export default function Journalism() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
-      <ScrollTriggeredSection>
-        <LazyLoadedMain src="/joubg.png" className={styles.mainImg} alt="" />
-      </ScrollTriggeredSection>
+        <ScrollTriggeredSection>
+          <div className={styles.imgContainer}>
+          <LazyLoadedMain src="/joubg.png" className={styles.mainImg} alt="" />
+          </div>
+        </ScrollTriggeredSection>
       <main>
         <div className={styles.main}>
           <ScrollTriggeredSection>
