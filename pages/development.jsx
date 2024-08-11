@@ -63,7 +63,7 @@ export default function Dev() {
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <img className={styles.bannerImg} src="/prosepalBanner.webp" alt="Prose Pal web app" />
+              <img className={styles.bannerImg} src="/prosepalbanner.webp" alt="Prose Pal web app" />
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
