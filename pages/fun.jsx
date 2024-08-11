@@ -26,7 +26,7 @@ export default function Fun() {
             <ScrollTriggeredSection>
               <div className={styles.smallSpacer} />
               <div className={styles.logoDiv}>
-                <h1 className={styles.h1}>Just For Fun</h1>
+                <h1 className={styles.h1}>Visual Arts</h1>
                 <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>

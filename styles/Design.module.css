@@ -10,12 +10,15 @@
     position: relative;
     width: 100vw;
     height: auto;
-    aspect-ratio: 2273 / 1131;
-    overflow: hidden;
+    aspect-ratio: 840 / 361.2;
     margin-left: -.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.main>div>h2 {
+    text-align: center;
 }
 
 .mainImg {
@@ -29,20 +32,48 @@
     height: auto;
 }
 
-.main>div>h2 {
-    text-align: center;
-}
-
 .smallSpacer {
     height: 20px;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 515px) {
+    .h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 440px) {
     .logo {
         max-width: 35px;
     }
 
     .h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 395px) {
+    .h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 357px) {
+    .h1 {
+        font-size: 1.2rem;
+    }
+
+    .logo {
+        max-width: 30px;
+    }
+}
+
+@media (max-width: 337px) {
+    .h1 {
+        font-size: 1.1rem;
+    }
+
+    .main>div>h2 {
+        font-size: 1rem;
     }
 }

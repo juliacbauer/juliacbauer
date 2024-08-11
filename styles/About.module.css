@@ -28,6 +28,7 @@
   margin-top: 40px;
   max-width: 60%;
   object-fit: contain;
+  position: sticky;
 }
 
 .aboutImg {

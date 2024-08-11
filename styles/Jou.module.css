@@ -10,7 +10,7 @@
     position: relative;
     width: 100vw;
     height: auto;
-    aspect-ratio: 2273 / 1131;
+    aspect-ratio: 840 / 361.2;
     overflow: hidden;
     margin-left: -.5rem;
 }
@@ -78,7 +78,7 @@
 @media (max-width: 600px) {
 
     .h1 {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -98,7 +98,7 @@
     }
 
     .h1 {
-        font-size: 1.7rem;
+        font-size: 1.4rem;
     }
 
     .contactBtn {

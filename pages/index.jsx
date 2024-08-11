@@ -7,6 +7,7 @@ import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedImage from "../components/LazyLoad/index";
 import LazyLoadedIcon from "../components/LazyIcon";
+import LazyLoadedHome from "../components/LazyHome";
 
 export default function Home() {
 
@@ -69,7 +70,7 @@ export default function Home() {
                 digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
             </div>
             <div className={styles.imgContainer}>
-            <img className={styles.img} src="/meMain.webp" alt="Headshot" />
+            <LazyLoadedHome className={styles.img} src="/meMain.webp" alt="Headshot" />
             </div>
           </div>
           <div className={styles.linkedInBtnDiv}>

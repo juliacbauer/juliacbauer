@@ -27,7 +27,7 @@ export default function Dev() {
             <ScrollTriggeredSection>
               <div className={styles.smallSpacer} />
               <div className={styles.logoDiv}>
-                <h1 className={styles.h1}>Coding</h1>
+                <h1 className={styles.h1}>Code</h1>
                 <LazyLoadedIcon className={styles.logo} src="/devicon.webp" alt="Development icon" />
               </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>

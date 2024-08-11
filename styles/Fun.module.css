@@ -10,7 +10,7 @@
     position: relative;
     width: 100vw;
     height: auto;
-    aspect-ratio: 2273 / 1131;
+    aspect-ratio: 840 / 361.2;
     overflow: hidden;
     margin-left: -.5rem;
     display: flex;
@@ -41,12 +41,19 @@
     height: 20px;
 }
 
+@media (max-width: 600px) {
+
+    .h1 {
+        font-size: 1.7rem;
+    }
+}
+
 @media (max-width: 420px) {
     .logo {
         max-width: 35px;
     }
 
     .h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 }

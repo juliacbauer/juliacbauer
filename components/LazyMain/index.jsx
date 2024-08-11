@@ -1,5 +1,6 @@
-import Image from "next/image";
 import { useState } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import styles from "./LazyMain.module.css";
 
 export default function LazyLoadedMain({ src, alt, className }) {
@@ -7,20 +8,15 @@ export default function LazyLoadedMain({ src, alt, className }) {
 
   return (
     <div className={`${styles.container} ${className}`}>
-    <Image
-      alt={alt}
-      src={src}
-      layout="responsive"
-      width={2273}
-      height={1131}
-      priority={true}
-      className={`${styles.image} ${isLoaded ? styles.loaded : ''}`}
-      onLoadingComplete={() => setIsLoaded(true)}
-      sizes="(max-width: 600px) 480px,
-             (max-width: 900px) 768px,
-             (max-width: 1200px) 1200px,
-             2273px"
-    />
+      <LazyLoadImage
+        alt={alt}
+        src={src}
+        width="100%"
+        height="auto"
+        className={`${styles.image} ${isLoaded ? styles.loaded : ''}`}
+        onLoad={() => setIsLoaded(true)}
+        effect="blur"
+      />
     </div>
   );
 }
