@@ -6,7 +6,7 @@ import Link from "next/link";
 import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedIcon from "../components/LazyIcon/index";
-import LazyLoadedMain from "../components/LazyIcon";
+import LazyLoadedMain from "../components/LazyMain";
 
 export default function Journalism() {
 
@@ -172,7 +172,7 @@ export default function Journalism() {
               <p>Read all 100+ of my publications on LinkedIn.</p>
               <br />
               <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-                <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.png" alt="LinkedIn button" />
+                <img className={`${styles.bob} ${styles.contactBtn}`} src="/linkedinbtn.webp" alt="LinkedIn button" />
               </Link>
             </div>
           </ScrollTriggeredSection>

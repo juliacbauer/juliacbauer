@@ -2,8 +2,14 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  width: 96%;
+  width: 100%;
   margin-top: 30px;
+}
+
+.heroContainer {
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .spacer {
@@ -24,7 +30,7 @@
 
 .heroContent {
   flex: 1;
-  margin-right: 25px;
+  margin-right: 45px;
   margin-top: -70px;
 }
 
@@ -106,11 +112,17 @@
   .img {
     max-width: 290px;
     height: auto;
+    margin-right: 1.5rem;
+  }
+
+  .heroContent {
+    margin-left: 1rem;
   }
 
   .linkedInBtn {
     margin-top: -25px;
     max-width: 120px;
+    margin-left: 1.3rem;
   }
 
   .mainHeading {
@@ -122,7 +134,7 @@
   }
 }
 
-@media (max-width: 755px) {
+@media (max-width: 761px) {
 
   .mainHeading {
     font-size: 2.3rem;
@@ -152,7 +164,7 @@
   }
 }
 
-@media (max-width: 670px) {
+@media (max-width: 694px) {
 
   .mainHeading {
     font-size: 2.1rem;
@@ -163,7 +175,7 @@
   }
 }
 
-@media (max-width: 643px) {
+@media (max-width: 655px) {
   .img {
     max-width: 250px;
     height: auto;
@@ -182,7 +194,7 @@
   }
 }
 
-@media (max-width: 621px) {
+@media (max-width: 635px) {
   .img {
     max-width: 240px;
   }
@@ -192,7 +204,7 @@
   }
 }
 
-@media (max-width: 611px) {
+@media (max-width: 625px) {
 
   .heroContent {
     margin-right: 10px;
@@ -230,8 +242,17 @@
   }
 
   .img {
-    max-width: 230px;
+    max-width: 220px;
     margin: 0;
+    object-fit: cover;
+  }
+
+  .imgContainer {
+    max-width: 220px;
+    height: 220px;
+    position: relative;
+    width: 100%;
+    object-fit: contain;
   }
 
   .mainHeading {
@@ -255,9 +276,11 @@
 @media (max-width: 530px) {
 
   .img {
-    max-width: 200px;
-    height: auto;
-    margin: -10px;
+    margin-top: -10px;
+  }
+
+  .linkedInBtnDiv {
+    margin-top: -10px;
   }
 
   .introP {

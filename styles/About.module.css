@@ -91,6 +91,15 @@
 
   .aboutImg {
     margin-bottom: -15px;
+    object-fit: cover;
+  }
+
+  .imgContainer {
+    max-width: 250px;
+    max-height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
   }
 
   .aboutP {
@@ -116,7 +125,13 @@
   }
 
   .aboutImg {
-    width: 180px;
+    width: 220px;
+  }
+
+  .imgContainer {
+    max-width: 220;
+    height: 220;
+    margin-bottom: 0;
   }
 }
 
@@ -129,6 +144,17 @@
 @media (max-width: 420px) {
   .linkedInBtn {
     max-width: 90px;
+  }
+}
+
+@media (max-width: 395px) {
+  .imgContainer {
+    max-width: 190;
+    height: 190;
+  }
+
+  .aboutImg {
+    width: 190px;
   }
 }
 

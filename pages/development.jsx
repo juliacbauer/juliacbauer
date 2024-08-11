@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import styles from "../styles/Dev.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedMain from "../components/LazyLoad/index";
+import LazyLoadedMain from "../components/LazyMain";
 import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Dev() {

@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Fun.module.css";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedMain from "../components/LazyLoad/index";
+import LazyLoadedMain from "../components/LazyMain";
 import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Fun() {

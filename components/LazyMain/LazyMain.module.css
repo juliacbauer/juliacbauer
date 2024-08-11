@@ -1,0 +1,13 @@
+.container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .image {
+    transition: filter 0.5s ease-out;
+    filter: grayscale(100%);
+  }
+  
+  .image.loaded {
+    filter: grayscale(0%);
+  }
