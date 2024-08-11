@@ -6,6 +6,16 @@
     margin-bottom: -15px;
 }
 
+.pDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pDiv>p {
+    max-width: 800px;
+}
+
 .imgContainer {
     position: relative;
     width: 100vw;
@@ -22,6 +32,46 @@
     margin-left: -1.05rem;
     object-fit: cover;
 }
+
+.bannerImg {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+}
+
+.workImg {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.workImgDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 800px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.bgDiv>h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+.bgDiv {
+    position: relative;
+    padding-top: 20px;
+    margin-left: -50vw;
+    padding-right: 11px;
+    left: 50%;
+    right: 50%;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
 
 .logo {
     max-width: 40px;
