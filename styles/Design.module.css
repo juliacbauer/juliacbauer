@@ -32,8 +32,22 @@
     height: auto;
 }
 
+.spacer {
+    height: 5vh;
+}
+
 .smallSpacer {
-    height: 20px;
+    height: 2vh;
+}
+
+@media (max-width: 550px) {
+    .spacer {
+        height: 2.8vh;
+    }
+    
+    .smallSpacer {
+        height: 1vh;
+    }
 }
 
 @media (max-width: 515px) {

@@ -5,7 +5,6 @@ import styles from "../styles/Dev.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedMain from "../components/LazyMain";
-import LazyLoadedIcon from "../components/LazyIcon";
 import WorkSection from "../components/WorkSection/index";
 
 

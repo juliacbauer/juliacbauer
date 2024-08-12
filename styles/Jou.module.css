@@ -82,6 +82,16 @@
     }
 }
 
+@media (max-width: 550px) {
+    .spacer {
+        height: 2.8vh;
+    }
+    
+    .smallSpacer {
+        height: 1vh;
+    }
+}
+
 @media (max-width: 485px) {
     .contactBtn {
         max-width: 100px;

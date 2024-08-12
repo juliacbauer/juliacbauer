@@ -4,9 +4,63 @@ import Footer from "../components/Footer";
 import styles from "../styles/Design.module.css";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedMain from "../components/LazyMain";
-import LazyLoadedIcon from "../components/LazyIcon";
+import WorkSection from "../components/WorkSection/index";
 
 export default function Design() {
+
+  const works1 = [
+    {
+      link: "/winterborn",
+      image: "/winterborn.webp",
+      alt: "Image of Winterborn homepage",
+      description: "Winterborn LLC Website",
+    },
+    {
+      link: "/flkids",
+      image: "/flkids.webp",
+      alt: "Image of FL Kids Eat Well logo",
+      description: "Florida Kids Eat Well Logo Design",
+    },
+    {
+      link: "/portiko",
+      image: "/portiko.webp",
+      alt: "Image of Portiko logo",
+      description: "Portiko Branding",
+    },
+    {
+      link: "/emailblast",
+      image: "/emailblast.gif",
+      alt: "Image of pet adoption email blast",
+      description: "Pet Adoption Email Blast",
+    },
+  ];
+
+  const works2 = [
+    {
+      link: "/colorfulcooking",
+      image: "/indesign.webp",
+      alt: "Image of cookbook cover design",
+      description: "Colorful Cooking Cookbook Design",
+    },
+    {
+      link: "/alexgredesign",
+      image: "/alexg.gif",
+      alt: "Image of Alex G website redesign homepage",
+      description: "Alex G Website Redesign",
+    },
+    {
+      link: "/travelvida",
+      image: "/adcampaign.webp",
+      alt: "Image of travel ad campaign design",
+      description: "Travel Vida Social Media Campaign",
+    },
+    {
+      link: "/personalbranding",
+      image: "/personaldesign.webp",
+      alt: "Image of personal branding elements",
+      description: "Personal Branding",
+    },
+  ];
   return (
     <>
       <Head>
@@ -23,40 +77,26 @@ export default function Design() {
       <main>
         <div>
           <div className={styles.main}>
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <div className={styles.smallSpacer} />
-              <div className={styles.logoDiv}>
-                <h1 className={styles.h1}>Visual Communication</h1>
-                <LazyLoadedIcon className={styles.logo} src="/designicon.webp" alt="Design icon" />
-              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <h2>Winterborn</h2>
-              <p>Explain Winterborn</p>
+              <WorkSection works={works1} />
+              <WorkSection works={works2} />
             </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <h2>Illustrator</h2>
-              <p>Portiko</p>
-              <p>Florida Kids Eat Well</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <ScrollTriggeredSection>
-              <h2>InDesign</h2>
-              <p>Cook book</p>
-            </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <ScrollTriggeredSection>
-              <h2>Photoshop</h2>
-              <p>Ad campaign</p>
-              <p>Email blast</p>
-              <p>Alex G website</p>
-            </ScrollTriggeredSection>
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
           </div>
         </div>
-        <div className={styles.smallSpacer} />
       </main>
       <Footer />
     </>

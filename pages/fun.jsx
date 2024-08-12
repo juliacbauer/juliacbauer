@@ -4,7 +4,6 @@ import Footer from "../components/Footer";
 import styles from "../styles/Fun.module.css";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedMain from "../components/LazyMain";
-import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function Fun() {
   return (
@@ -25,10 +24,6 @@ export default function Fun() {
           <div className={styles.main}>
             <ScrollTriggeredSection>
               <div className={styles.smallSpacer} />
-              <div className={styles.logoDiv}>
-                <h1 className={styles.h1}>Visual Arts</h1>
-                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
-              </div>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />

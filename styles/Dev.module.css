@@ -78,15 +78,15 @@
 }
 
 .spacer {
-    height: 40px;
+    height: 5vh;
+}
+
+.smallSpacer {
+    height: 2vh;
 }
 
 .main>div>h2 {
     text-align: center;
-}
-
-.smallSpacer {
-    height: 20px;
 }
 
 @keyframes bob {
@@ -124,6 +124,15 @@
     }
 }
 
+@media (max-width: 550px) {
+    .spacer {
+        height: 2.8vh;
+    }
+    
+    .smallSpacer {
+        height: 1vh;
+    }
+}
 
 @media (max-width: 485px) {
     .btn {
