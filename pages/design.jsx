@@ -86,7 +86,9 @@ export default function Design() {
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
               <WorkSection works={works1} />
+              <div className={styles.workSpace}>
               <WorkSection works={works2} />
+              </div>
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
             <div className={styles.spacer} />
