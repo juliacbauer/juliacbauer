@@ -8,7 +8,7 @@ import WorkSection from "../components/WorkSection/index";
 
 export default function Design() {
 
-  const works1 = [
+  const works = [
     {
       link: "/winterborn",
       image: "/winterborn.webp",
@@ -33,9 +33,6 @@ export default function Design() {
       alt: "Image of pet adoption email blast",
       description: "Pet Adoption Email Blast",
     },
-  ];
-
-  const works2 = [
     {
       link: "/colorfulcooking",
       image: "/indesign.webp",
@@ -85,15 +82,7 @@ export default function Design() {
             <div className={styles.spacer} />
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <WorkSection works={works1} />
-              <div className={styles.workSpace}>
-              <WorkSection works={works2} />
-              </div>
-            </ScrollTriggeredSection>
-            <div className={styles.spacer} />
-            <div className={styles.spacer} />
-            <ScrollTriggeredSection>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
+              <WorkSection works={works} />
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
             <div className={styles.spacer} />
