@@ -6,8 +6,38 @@ import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedMain from "../components/LazyMain";
 import LazyLoadedIcon from "../components/LazyIcon";
+import WorkSection from "../components/WorkSection/index";
+
 
 export default function Dev() {
+
+  const works1 = [
+    {
+      link: "/portfolio",
+      image: "/portfolio.webp",
+      alt: "Image of portfolio homepage",
+      description: "Portfolio Website",
+    },
+    {
+      link: "/cinememo",
+      image: "/cinememo.webp",
+      alt: "Image of Cinememo homepage",
+      description: "Cinememo: Movie-Tracking App",
+    },
+    {
+      link: "/prosepal",
+      image: "/prosepal.webp",
+      alt: "Image of Prose Pal search page",
+      description: "Prose Pal: Vocabulary-Tracking App",
+    },
+    {
+      link: "/keepitreel",
+      image: "/keepitreel.webp",
+      alt: "Image of movie searching app homepage",
+      description: "Keep It Reel: Movie-Searching App",
+    },
+  ];
+
   return (
     <>
       <Head>
@@ -24,65 +54,28 @@ export default function Dev() {
       <main>
         <div>
           <div className={styles.main}>
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <div className={styles.smallSpacer} />
-              <div className={styles.logoDiv}>
-                <h1 className={styles.h1}>Code</h1>
-                <LazyLoadedIcon className={styles.logo} src="/devicon.webp" alt="Development icon" />
-              </div>
               <div className={styles.pDiv}>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
               </div>
-            </ScrollTriggeredSection>
-            <ScrollTriggeredSection>
-              <h2>Cinememo</h2>
-              <div className={styles.bgDiv}>
-                <div className={styles.workImgDiv}>
-                  <Link href="https://cinememo.vercel.app/" target="_blank">
-                    <img className={`${styles.bob} ${styles.workImg}`} src="/cinememo.webp" alt="Cinememo web app" />
-                  </Link>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!</p>
-                </div>
+              <div className={styles.pDiv}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam molestiae fugit fuga at. Ab unde ut, ducimus provident culpa enim ipsam facere explicabo officia mollitia fugiat, maxime error sequi!</p>
+              </div>
+              <div className={styles.pDiv}>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam molestiae fugit fuga at. Ab unde ut, ducimus provident culpa enim ipsam facere explicabo officia mollitia fugiat, maxime error sequi!</p>
               </div>
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
-            <ScrollTriggeredSection>
-              <img className={styles.bannerImg} src="/cinememoBanner.webp" alt="Cinememo web app" />
-            </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <ScrollTriggeredSection>
-              <h2>Prose Pal</h2>
-              <div className={styles.bgDiv}>
-                <div className={styles.workImgDiv}>
-                  <Link href="https://prose-pal-julia-bauer.vercel.app/" target="_blank">
-                    <img className={`${styles.bob} ${styles.workImg}`} src="/prosepal.webp" alt="Prose Pal web app" />
-                  </Link>
-                  <p>This website! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!</p>
-                </div>
-              </div>
-            </ScrollTriggeredSection>
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <img className={styles.bannerImg} src="/prosepalbanner.webp" alt="Prose Pal web app" />
+              <WorkSection works={works1} />
             </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
+            <div className={styles.spacer} />
+            <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <h2>Portfolio Site</h2>
-              <div className={styles.bgDiv}>
-                <div className={styles.workImgDiv}>
-                  <Link href="https://github.com/juliacbauer/juliacbauer" target="_blank">
-                    <img className={`${styles.bob} ${styles.workImg}`} src="/finalpersonallogo.webp" alt="Portfolio site" />
-                  </Link>
-                  <p>This website! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!</p>
-                </div>
-                <div className={styles.pDiv}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, praesentium, laborum omnis velit obcaecati officiis nisi exercitationem voluptates excepturi, tempora laudantium? Optio tenetur enim porro laborum ullam fuga, natus neque!</p>
-              </div>
-              </div>
-            </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <ScrollTriggeredSection>
-              <h2>GitHub</h2>
+              <h2>See More</h2>
               <div className={styles.pDiv}>
                 <p>Feel free to view more skill-based work on my GitHub. Chronologically, my repositories illustrate my web development learning process via the Web Design and Online Communication program within the Univeristy of Florida's MA in Mass Communication degree.</p>
               </div>
@@ -94,7 +87,7 @@ export default function Dev() {
               </div>
             </ScrollTriggeredSection>
           </div>
-          <div className={styles.smallSpacer} />
+          <div className={styles.spacer} />
         </div>
       </main>
       <Footer />

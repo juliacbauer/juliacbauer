@@ -3,7 +3,7 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import WorkSection from "../components/WorkSection/index";
+import HomeWork from "../components/HomeWork";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import LazyLoadedImage from "../components/LazyLoad/index";
 import LazyLoadedIcon from "../components/LazyIcon";
@@ -60,24 +60,24 @@ export default function Home() {
       <main>
         <ScrollTriggeredSection>
           <div className={styles.heroContainer}>
-          <div className={styles.heroSection}>
-            <div className={styles.heroContent}>
-              <div className={styles.logoDiv}>
-                <h1 className={styles.mainHeading}>Julia Bauer</h1>
-                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
+            <div className={styles.heroSection}>
+              <div className={styles.heroContent}>
+                <div className={styles.logoDiv}>
+                  <h1 className={styles.mainHeading}>Julia Bauer</h1>
+                  <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" />
+                </div>
+                <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
+                  digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
               </div>
-              <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
-                digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
+              <div className={styles.imgContainer}>
+                <LazyLoadedHome className={styles.img} src="/meMain.webp" alt="Headshot" />
+              </div>
             </div>
-            <div className={styles.imgContainer}>
-            <LazyLoadedHome className={styles.img} src="/meMain.webp" alt="Headshot" />
+            <div className={styles.linkedInBtnDiv}>
+              <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+                <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" />
+              </Link>
             </div>
-          </div>
-          <div className={styles.linkedInBtnDiv}>
-            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-            <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" />
-            </Link>
-          </div>
           </div>
         </ScrollTriggeredSection>
         <div className={styles.spacer} />
@@ -85,7 +85,7 @@ export default function Home() {
           <ScrollTriggeredSection>
             <div>
               <div>
-                <WorkSection title="Explore My Work" works={works} />
+                <HomeWork title="Explore My Work" works={works} />
               </div>
             </div>
           </ScrollTriggeredSection>

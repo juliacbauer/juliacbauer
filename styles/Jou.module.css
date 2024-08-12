@@ -10,7 +10,7 @@
     position: relative;
     width: 100vw;
     height: auto;
-    aspect-ratio: 840 / 361.2;
+    aspect-ratio: 840 / 450;
     overflow: hidden;
     margin-left: -.5rem;
 }
@@ -27,11 +27,11 @@
 }
 
 .spacer {
-    height: 40px;
+    height: 5vh;
 }
 
 .smallSpacer {
-    height: 20px;
+    height: 2vh;
 }
 
 .linkedInDiv {

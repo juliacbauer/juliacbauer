@@ -14,13 +14,14 @@
 
 .pDiv>p {
     max-width: 800px;
+    margin: .4rem;
 }
 
 .imgContainer {
     position: relative;
     width: 100vw;
     height: auto;
-    aspect-ratio: 840 / 361.2;
+    aspect-ratio: 840 / 450;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,8 +41,8 @@
 }
 
 .workImg {
-    max-width: 350px;
-    max-height: 350px;
+    max-width: 300px;
+    max-height: 300px;
 }
 
 .workImgDiv {
@@ -62,16 +63,14 @@
 .bgDiv {
     position: relative;
     padding-top: 20px;
-    margin-left: -50vw;
-    padding-right: 11px;
-    left: 50%;
-    right: 50%;
-    width: 99vw;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     padding-bottom: 25px;
+    max-width: 1000px;
 }
-
 
 .logo {
     max-width: 40px;

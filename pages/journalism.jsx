@@ -5,7 +5,6 @@ import styles from "../styles/Jou.module.css";
 import Link from "next/link";
 import WorkSection from "../components/WorkSection/index";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedIcon from "../components/LazyIcon/index";
 import LazyLoadedMain from "../components/LazyMain";
 
 export default function Journalism() {
@@ -111,33 +110,32 @@ export default function Journalism() {
         <link rel="icon" href="/faviconpersonal.webp" />
       </Head>
       <Header />
-        <ScrollTriggeredSection>
-          <div className={styles.imgContainer}>
+      <ScrollTriggeredSection>
+        <div className={styles.imgContainer}>
           <LazyLoadedMain src="/joubg.webp" className={styles.mainImg} alt="" />
-          </div>
-        </ScrollTriggeredSection>
+        </div>
+      </ScrollTriggeredSection>
       <main>
         <div className={styles.main}>
+          <div className={styles.spacer} />
+          <div className={styles.spacer} />
           <ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <div className={styles.logoDiv}>
-              <h1 className={styles.h1}>Storytelling</h1>
-              <LazyLoadedIcon className={styles.logo} src="/jouicon.webp" alt="Journalism icon" />
-            </div>
-            <p>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Rather, a good journalist allows the narrative to reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
+            <p className={styles.mainP}>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Rather, a good journalist allows the narrative to reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
           </ScrollTriggeredSection>
-          <div className={styles.smallSpacer} />
+          <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <h2>WUFT</h2>
             <p>WUFT is a PBS member news station covering 16 counties in North Central Florida. As a reporter intern, I produced hard news stories in a multimedia format.</p>
             <p>24-hour deadline? No problem, thanks to my experience covering event stories. Need something written concisely because of word count restrictions? Easy. And in this age of shortened attention spans, there's no time for fluff anyway.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
+          <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <div>
-              <WorkSection title="Highlights" works={works1} />
+              <WorkSection works={works1} />
             </div>
           </ScrollTriggeredSection>
+          <div className={styles.spacer} />
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <h2>Irving Publications</h2>
@@ -146,12 +144,13 @@ export default function Journalism() {
             <p>Beginning that fall, my role grew into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and SEO optimization.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
-          <div className={styles.smallSpacer} />
+          <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <div>
-              <WorkSection title="Highlights" works={works2} />
+              <WorkSection works={works2} />
             </div>
           </ScrollTriggeredSection>
+          <div className={styles.spacer} />
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <h2>UF Alumni Association</h2>
@@ -159,12 +158,13 @@ export default function Journalism() {
             <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about a random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
-          <div className={styles.smallSpacer} />
+          <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <div>
-              <WorkSection title="Highlights" works={works3} />
+              <WorkSection works={works3} />
             </div>
           </ScrollTriggeredSection>
+          <div className={styles.spacer} />
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <div className={styles.linkedInDiv}>

@@ -1,0 +1,107 @@
+.workImg {
+    width: 70%;
+    height: auto;
+    cursor: pointer;
+    margin-left: 4%;
+}
+
+.workCard {
+    width: 100%;
+    text-align: center;
+}
+
+.workDiv {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bgColorDiv>h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.bgColorDiv {
+    position: relative;
+    padding-top: 40px;
+    margin-left: -50vw;
+    padding-right: 11px;
+    left: 50%;
+    right: 50%;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #d6e2e2;
+    padding-bottom: 25px;
+}
+
+@keyframes bob {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-2px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bob:hover {
+    animation: bob 0.8s infinite;
+}
+
+@media (max-width: 900px) {
+    .workDiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+        max-width: 80%;
+    }
+
+    .workDiv {
+        max-width: 90%;
+    }
+
+    .workImg {
+        width: 60%;
+    }
+}
+
+@media (max-width: 650px) {
+    .workCard>div>p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .h3 {
+        font-size: 1rem;
+    }
+
+    .workCard>div>p {
+        font-size: .8rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .workDiv {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 390px) {
+    .workImg {
+        width: 70%;
+    }
+}
+
+@media (max-width: 350px) {
+    .workCard>div>p {
+        font-size: .7rem;
+    }
+}
