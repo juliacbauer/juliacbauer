@@ -39,6 +39,16 @@
   margin-left: 10px;
 }
 
+.imgContainer {
+  max-width: 250px;
+  max-height: 250px;
+  width: 250px; /* Set fixed width */
+  height: 250px; /* Set fixed height */
+  margin-bottom: 15px;
+  position: relative;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
 .logoDiv {
   display: flex;
   align-items: center;
