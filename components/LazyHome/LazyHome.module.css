@@ -1,6 +1,8 @@
 .container {
     position: relative;
     overflow: hidden;
+    width: 100%;
+  background-color: #fcfbf5;
   }
   
   .image {
