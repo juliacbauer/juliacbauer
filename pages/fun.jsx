@@ -44,67 +44,131 @@ export default function Fun() {
 
   const works2 = [
     {
-      image: "/winterborn.webp",
+      image: "/moonocean.webp",
       alt: "Image of Winterborn homepage",
     },
     {
-      image: "/flkids.webp",
-      alt: "Image of FL Kids Eat Well logo",
-    },
-    {
-      image: "/portiko.webp",
-      alt: "Image of Portiko logo",
-    },
-    {
-      image: "/emailblast.gif",
-      alt: "Image of pet adoption email blast",
-    },
-    {
-      image: "/indesign.webp",
+      image: "/butterfly.webp",
       alt: "Image of cookbook cover design",
     },
     {
-      image: "/alexg.gif",
-      alt: "Image of Alex G website redesign homepage",
+      image: "/bee.webp",
+      alt: "Image of FL Kids Eat Well logo",
     },
     {
-      image: "/adcampaign.webp",
-      alt: "Image of travel ad campaign design",
-    },
-    {
-      image: "/personaldesign.webp",
+      image: "/turtle.webp",
       alt: "Image of personal branding elements",
     },
     {
-      image: "/winterborn.webp",
-      alt: "Image of Winterborn homepage",
-    },
-    {
-      image: "/flkids.webp",
-      alt: "Image of FL Kids Eat Well logo",
-    },
-    {
-      image: "/portiko.webp",
+      image: "/bike.webp",
       alt: "Image of Portiko logo",
     },
     {
-      image: "/emailblast.gif",
+      image: "/bubble.webp",
       alt: "Image of pet adoption email blast",
     },
     {
-      image: "/indesign.webp",
-      alt: "Image of cookbook cover design",
-    },
-    {
-      image: "/alexg.gif",
+      image: "/caterpillar.webp",
       alt: "Image of Alex G website redesign homepage",
     },
     {
-      image: "/adcampaign.webp",
+      image: "/fish.webp",
       alt: "Image of travel ad campaign design",
     },
     {
-      image: "/personaldesign.webp",
+      image: "/flowerbush.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/gators.webp",
+      alt: "Image of Winterborn homepage",
+    },
+    {
+      image: "/flowers.webp",
+      alt: "Image of FL Kids Eat Well logo",
+    },
+    {
+      image: "/jazzclub.webp",
+      alt: "Image of Portiko logo",
+    },
+    {
+      image: "/light.webp",
+      alt: "Image of pet adoption email blast",
+    },
+    {
+      image: "/lightbeams.webp",
+      alt: "Image of cookbook cover design",
+    },
+    {
+      image: "/lighthouse.webp",
+      alt: "Image of Alex G website redesign homepage",
+    },
+    {
+      image: "/moon.webp",
+      alt: "Image of travel ad campaign design",
+    },
+    {
+      image: "/ncbutterfly.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/oceansunset.webp",
+      alt: "Image of Alex G website redesign homepage",
+    },
+    {
+      image: "/oceancliff.webp",
+      alt: "Image of pet adoption email blast",
+    },
+    {
+      image: "/paris.webp",
+      alt: "Image of cookbook cover design",
+    },
+    {
+      image: "/pinkflowers.webp",
+      alt: "Image of travel ad campaign design",
+    },
+    {
+      image: "/plane.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/rainbow.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/pinksky.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/raincloud.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/redflowers.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/river.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/roadsunset.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/snorkel.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/tree.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/waterfall.webp",
+      alt: "Image of personal branding elements",
+    },
+    {
+      image: "/wave.webp",
       alt: "Image of personal branding elements",
     },
   ];

@@ -13,6 +13,7 @@
     aspect-ratio: 840 / 450;
     overflow: hidden;
     margin-left: -.5rem;
+    margin-top: -90px;
 }
 
 .mainImg {
