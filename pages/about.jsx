@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
-import LazyLoadedImage from "../components/LazyLoad/index";
+import LazyLoadedHome from "../components/LazyHome/index";
 import LazyLoadedIcon from "../components/LazyIcon";
 
 export default function About() {
@@ -27,7 +27,7 @@ export default function About() {
                 </div>
                 <div className={styles.aboutDiv}>
                   <div className={styles.imgContainer}>
-                  <LazyLoadedImage
+                  <LazyLoadedHome
                     src="/jouMeGraphic.webp"
                     alt="Headshot"
                     className={styles.aboutImg}
