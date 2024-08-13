@@ -42,11 +42,11 @@
 .imgContainer {
   max-width: 250px;
   max-height: 250px;
-  width: 250px; /* Set fixed width */
-  height: 250px; /* Set fixed height */
+  width: 250px;
+  height: 250px;
   margin-bottom: 15px;
   position: relative;
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0;
 }
 
 .logoDiv {
@@ -140,9 +140,12 @@
   }
 
   .imgContainer {
-    max-width: 220;
-    height: 220;
-    margin-bottom: 0;
+    max-width: 220px;
+    max-height: 220px;
+    width: 220px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -166,6 +169,13 @@
 
   .aboutImg {
     width: 190px;
+  }
+
+  .imgContainer {
+    max-width: 190px;
+    max-height: 190px;
+    width: 190px;
+    height: 190px;
   }
 }
 

@@ -78,6 +78,35 @@
   align-items: center;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.heroContent, .imgContainer, .linkedInBtnDiv {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.imgContainer {
+  animation-delay: 0.5s;
+}
+
+.linkedInBtnDiv {
+  animation-delay: 1s;
+}
+
 .contactBtn {
   max-width: 120px;
   height: auto;
