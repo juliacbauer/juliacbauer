@@ -6,14 +6,6 @@
   margin-top: 30px;
 }
 
-.imgContainer {
-  max-width: 345px;
-  max-height: 345px;
-  margin-bottom: 15px;
-  position: relative;
-  flex-shrink: 0; /* Prevent shrinking */
-}
-
 .heroContainer {
   position: relative;
   width: 100%;
@@ -91,11 +83,21 @@
   height: auto;
 }
 
+.imgContainer {
+  max-width: 345px;
+  aspect-ratio: 1 / 1; /* Reserve space based on image aspect ratio */
+  width: 100%;
+  position: relative;
+  margin-right: .5rem;
+  object-fit: contain;
+}
+
 .img {
   max-width: 345px;
   height: auto;
   object-fit: contain;
   margin-right: .5rem;
+  width: 100%;
 }
 
 @keyframes bob {
@@ -259,6 +261,8 @@
     max-width: 220px;
     height: 220px;
     position: relative;
+    width: 100%;
+    object-fit: contain;
   }
 
   .mainHeading {
