@@ -10,6 +10,10 @@
     color: #fcfbf5 !important;
 }
 
+.whiteLink:hover {
+    color: #b1caca !important;
+}
+
 .displayLists {
     position: absolute;
     padding-right: 8px;
