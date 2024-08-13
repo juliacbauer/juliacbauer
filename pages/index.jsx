@@ -84,7 +84,7 @@ export default function Home() {
           </div>
         </ScrollTriggeredSection>
         <div className={styles.spacer} />
-        <div className={styles.section2}>
+        <div className={`${styles.section2} ${styles.fadeIn}`}>
           <ScrollTriggeredSection>
             <div>
               <div>
