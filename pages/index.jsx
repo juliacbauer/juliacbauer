@@ -58,31 +58,29 @@ export default function Home() {
       </Head>
       <Header />
       <main>
-        <ScrollTriggeredSection>
-          <div className={styles.heroContainer}>
-            <div className={styles.heroSection}>
-              <div className={styles.heroContent}>
-                <div className={styles.logoDiv}>
-                  <h1 className={styles.mainHeading}>Julia Bauer</h1>
-                  <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo"   width={50} /* Add width and height */
-  height={50}/>
-                </div>
-                <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
-                  digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
+        <div className={styles.heroContainer}>
+          <div className={styles.heroSection}>
+            <div className={styles.heroContent}>
+              <div className={styles.logoDiv}>
+                <h1 className={styles.mainHeading}>Julia Bauer</h1>
+                <LazyLoadedIcon className={styles.logo} src="/finalpersonallogo.webp" alt="Logo" width={50} /* Add width and height */
+                  height={50} />
               </div>
-              <div className={styles.imgContainer}>
-                <LazyLoadedHome className={styles.img} src="/meMain.webp" alt="Headshot"  width={345} /* Add width and height */
-  height={345}/>
-              </div>
+              <p className={styles.introP}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
+                digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
             </div>
-            <div className={styles.linkedInBtnDiv}>
-              <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-                <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" width={140} /* Add width and height */
-  height={140}/>
-              </Link>
+            <div className={styles.imgContainer}>
+              <LazyLoadedHome className={styles.img} src="/meMain.webp" alt="Headshot" width={345} /* Add width and height */
+                height={345} />
             </div>
           </div>
-        </ScrollTriggeredSection>
+          <div className={styles.linkedInBtnDiv}>
+            <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
+              <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" width={140} /* Add width and height */
+                height={140} />
+            </Link>
+          </div>
+        </div>
         <div className={styles.spacer} />
         <div className={styles.section2}>
           <ScrollTriggeredSection>

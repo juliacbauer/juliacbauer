@@ -85,11 +85,11 @@
 
 .imgContainer {
   max-width: 345px;
-  aspect-ratio: 1 / 1; /* Reserve space based on image aspect ratio */
+  aspect-ratio: 1 / 1;
   width: 100%;
   position: relative;
-  margin-right: .5rem;
   object-fit: contain;
+  margin-right: .5rem;
 }
 
 .img {
@@ -123,6 +123,10 @@
     max-width: 290px;
     height: auto;
     margin-right: 1.5rem;
+  }
+
+  .imgContainer {
+    max-width: 290px;
   }
 
   .heroContent {
@@ -183,12 +187,20 @@
   .img {
     max-width: 270px;
   }
+
+  .imgContainer {
+    max-width: 270px;
+  }
 }
 
 @media (max-width: 655px) {
   .img {
     max-width: 250px;
     height: auto;
+  }
+
+  .imgContainer {
+    max-width: 250px;
   }
 
   .mainHeading {
@@ -206,6 +218,10 @@
 
 @media (max-width: 635px) {
   .img {
+    max-width: 240px;
+  }
+
+  .imgContainer {
     max-width: 240px;
   }
 
@@ -259,10 +275,6 @@
 
   .imgContainer {
     max-width: 220px;
-    height: 220px;
-    position: relative;
-    width: 100%;
-    object-fit: contain;
   }
 
   .mainHeading {
