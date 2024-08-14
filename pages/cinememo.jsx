@@ -1,9 +1,8 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import styles from "../styles/Dev.module.css";
-import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
+import WorkPage from "../components/WorkPage";
 
 export default function Cinememo() {
     return (
@@ -16,16 +15,24 @@ export default function Cinememo() {
             <Header />
             <main>
                 <div>
-                    <div className={styles.main}>
-                        <ScrollTriggeredSection>
-                            <h1>Cinememo</h1>
-                            <Link href="https://cinememo.vercel.app/" target="_blank">
-                                <p>Cinememo</p>
-                            </Link>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!</p>
-                        </ScrollTriggeredSection>
-                    </div>
+                    <ScrollTriggeredSection>
+                        <WorkPage
+                            title="Cinememo"
+                            paragraphs={[
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
+                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
+                            ]}
+                            link={{ href: "https://example.com", text: "Check out my work" }}
+                            images={[
+                                "/cinememo.webp",
+                                "/cinememo.webp",
+                                "/cinememo.webp",
+                            ]}
+                        />
+                    </ScrollTriggeredSection>
                 </div>
+                <p>Return to Development page</p>
             </main>
             <Footer />
         </>

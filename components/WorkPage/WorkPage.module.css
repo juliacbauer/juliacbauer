@@ -1,0 +1,42 @@
+.bgColorDiv {
+    position: relative;
+    padding-top: 25px;
+    margin-left: -49vw;
+    left: 50%;
+    right: 50%;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    row-gap: 5px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.link {
+    color: brown;
+}
+
+.workImg {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.workP {
+    text-align: left;
+}
+
+@media (max-width: 900px) {
+
+    .bgColorDiv {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .workImg {
+        width: 96%;
+    }
+}
