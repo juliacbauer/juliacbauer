@@ -34,19 +34,19 @@ export default function Design() {
       description: "Pet Adoption Email Blast",
     },
     {
-      link: "/colorfulcooking",
+      link: "/cookbook",
       image: "/indesign.webp",
       alt: "Image of cookbook cover design",
       description: "Colorful Cooking Cookbook Design",
     },
     {
-      link: "/alexgredesign",
+      link: "/alexg",
       image: "/alexg.gif",
       alt: "Image of Alex G website redesign homepage",
       description: "Alex G Website Redesign",
     },
     {
-      link: "/travelvida",
+      link: "/adcampaign",
       image: "/adcampaign.webp",
       alt: "Image of travel ad campaign design",
       description: "Travel Vida Social Media Campaign",

@@ -5,11 +5,11 @@ import styles from "../styles/Dev.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
 
-export default function Portfolio() {
+export default function Winterborn() {
     return (
         <>
             <Head>
-                <title>Portfolio</title>
+                <title>Winterborn</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/faviconpersonal.webp" />
             </Head>
@@ -18,9 +18,9 @@ export default function Portfolio() {
                 <div>
                     <div className={styles.main}>
                         <ScrollTriggeredSection>
-                            <h1>Portfolio</h1>
-                            <Link href="https://github.com/juliacbauer/juliacbauer" target="_blank">
-                                <p>Portfolio</p>
+                            <h1>Winterborn</h1>
+                            <Link href="https://winterborn.net/" target="_blank">
+                                <p>Winterborn</p>
                             </Link>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!</p>
                         </ScrollTriggeredSection>

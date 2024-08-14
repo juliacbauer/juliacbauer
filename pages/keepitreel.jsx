@@ -5,7 +5,7 @@ import styles from "../styles/Dev.module.css";
 import Link from "next/link";
 import ScrollTriggeredSection from "../components/Scroll/index";
 
-export default function Cinememo() {
+export default function KeepItReel() {
     return (
         <>
             <Head>

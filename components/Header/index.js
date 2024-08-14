@@ -1,16 +1,33 @@
 import styles from "./Header.module.css";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
 export default function Header() {
     
     const [displayLists, setDisplayLists] = useState(false);
     const router = useRouter();
+    const [fadeClass, setFadeClass] = useState("");
     
     function onClickLists() {
-        setDisplayLists((prevDisplayLists) => !prevDisplayLists);
-    }
+        if (displayLists) {
+            setFadeClass(styles.fadeOut);
+            setTimeout(() => {
+                setDisplayLists(false);
+            }, 300)
+        } else {
+            setDisplayLists(true);
+            setTimeout(() => {
+                setFadeClass(styles.fadeIn);
+            }, 10)
+        }
+    };
+
+    useEffect(() => {
+        if (!displayLists) {
+            setFadeClass("")
+        }
+    }, [displayLists]);
 
     const isDarkBackgroundPage = router.pathname.startsWith('/journalism') || router.pathname.startsWith('/design') || router.pathname.startsWith('/development') || router.pathname.startsWith('/fun');
 
@@ -26,7 +43,7 @@ export default function Header() {
                 <div onClick={onClickLists} style={{ cursor: "pointer" }}>
                     <p className={`${styles.hoverLink} ${isDarkBackgroundPage ? styles.whiteLink : ''}`}>Work</p>
                     {displayLists && (
-                        <div className={styles.displayLists}>
+                        <div className={`${styles.displayLists} ${fadeClass}`}>
                             <p className={styles.hoverLink}><Link href="/journalism">Journalism</Link></p>
                             <p className={styles.hoverLink}><Link href="/design">Design</Link></p>
                             <p className={styles.hoverLink}><Link href="/development">Development</Link></p>
