@@ -84,12 +84,12 @@ export default function Home() {
           </div>
         </ScrollTriggeredSection>
         <div className={styles.spacer} />
-        <div className={styles.section2}>
+        <div className={`${styles.section2} ${styles.fadeIn}`}>
           <ScrollTriggeredSection>
             <div className={styles.fadeIn}>
               <div className={styles.fadeIn}>
                 <div className={styles.fadeIn}>
-                  <HomeWork title="Explore My Work" works={works} />
+                  <HomeWork className={styles.fadeIn} title="Explore My Work" works={works} />
                 </div>
               </div>
             </div>
