@@ -36,9 +36,9 @@ export default function Header() {
         <header className={styles.container}>
             <div className={styles.logoLeft}>
                 <div className={styles.logoContainer}>
-                    <div className={styles.logoPlaceholder}>
+                    <p className={styles.logoPlaceholder}>
                         <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.webp" alt="Logo" /></Link>
-                    </div>
+                    </p>
                 </div>
             </div>
             <div className={styles.rightLinks}>
