@@ -64,20 +64,20 @@ export default function Home() {
               <div className={`${styles.heroContent} ${styles.fadeIn}`}>
                 <div className={`${styles.logoDiv} ${styles.fadeIn}`}>
                   <h1 className={`${styles.mainHeading} ${styles.fadeIn}`}>Julia Bauer</h1>
-                  <LazyLoadedIcon className={`${styles.logo} ${styles.fadeIn}`} src="/finalpersonallogo.webp" alt="Logo" width={50} /* Add width and height */
+                  <LazyLoadedIcon className={`${styles.logo} ${styles.fadeIn}`} src="/finalpersonallogo.webp" alt="Logo" width={50}
                     height={50} />
                 </div>
                 <p className={`${styles.introP} ${styles.fadeIn}`}>Hello! I'm Julia Bauer – a communications professional with expertise in journalism, design and
                   digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
               </div>
               <div className={`${styles.imgContainer} ${styles.fadeIn}`}>
-                <LazyLoadedHome className={`${styles.img} ${styles.fadeIn}`} src="/meMain.webp" alt="Headshot" width={345} /* Add width and height */
+                <LazyLoadedHome className={`${styles.img} ${styles.fadeIn}`} src="/meMain.webp" alt="Headshot" width={345}
                   height={345} />
               </div>
             </div>
             <div className={`${styles.linkedInBtnDiv} ${styles.fadeIn}`}>
               <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank">
-                <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" width={140} /* Add width and height */
+                <LazyLoadedImage className={`${styles.bob} ${styles.linkedInBtn}`} src="/linkedinbtnmain.webp" alt="LinkedIn button" width={140}
                   height={140} />
               </Link>
             </div>

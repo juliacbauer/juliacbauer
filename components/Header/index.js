@@ -4,11 +4,11 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 
 export default function Header() {
-    
+
     const [displayLists, setDisplayLists] = useState(false);
     const router = useRouter();
     const [fadeClass, setFadeClass] = useState("");
-    
+
     function onClickLists() {
         if (displayLists) {
             setFadeClass(styles.fadeOut);
@@ -31,15 +31,15 @@ export default function Header() {
 
     const isDarkBackgroundPage = router.pathname.startsWith('/journalism') || router.pathname.startsWith('/design') || router.pathname.startsWith('/development') || router.pathname.startsWith('/fun');
 
-    
+
     return (
         <header className={styles.container}>
             <div className={styles.logoLeft}>
-            <div className={styles.logoContainer}>
-                <div className={styles.logoPlaceholder}>
-                    <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.webp" alt="Logo" /></Link>
-            </div>
-            </div>
+                <div className={styles.logoContainer}>
+                    <div className={styles.logoPlaceholder}>
+                        <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.webp" alt="Logo" /></Link>
+                    </div>
+                </div>
             </div>
             <div className={styles.rightLinks}>
                 <div onClick={onClickLists} style={{ cursor: "pointer" }}>
