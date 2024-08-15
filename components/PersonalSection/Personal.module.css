@@ -36,10 +36,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.5s ease, visibility 0.5s ease;
+    cursor: pointer;
 }
 
 .zoomedOverlay.show {
@@ -48,16 +50,17 @@
 }
 
 .zoomedImageContainer {
-    position: relative;
     width: 90%;
     max-width: 90%;
-    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 .zoomedImage {
-    width: 100%;
+    width: 60%;
     height: auto;
-    cursor: pointer;
+    object-fit: contain;
 }
 
 .bgColorDiv {

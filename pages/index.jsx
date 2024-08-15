@@ -40,11 +40,11 @@ export default function Home() {
       description: "Responsive, UX-optimized websites.",
     },
     {
-      link: "/fun",
+      link: "/about",
       image: "/finalpersonallogo.webp",
       alt: "Logo",
-      title: "Just for Fun",
-      description: "My artistic hobbies and passions.",
+      title: "About Me",
+      description: "My work experience and passions.",
     },
   ];
 

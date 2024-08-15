@@ -1,6 +1,7 @@
 import styles from "./Personal.module.css";
 import ScrollTriggeredSection from "../Scroll/index";
 import { useState } from "react";
+import { createPortal } from "react-dom";
 
 export default function WorkSection({ works }) {
   const [zoomedImage, setZoomedImage] = useState(null);
@@ -20,6 +21,17 @@ export default function WorkSection({ works }) {
     }, 500)
   };
 
+  const zoomedOverlay = zoomedImage && (
+    <div
+      className={`${styles.zoomedOverlay} ${isZooming ? styles.show : ""}`}
+      onClick={handleClickOutside}
+    >
+      <div className={styles.zoomedImageContainer}>
+        <img src={zoomedImage} alt="Zoomed in" className={styles.zoomedImage} />
+      </div>
+    </div>
+  );
+
   return (
     <div className={styles.bgColorDiv}>
       <div className={styles.workDiv}>
@@ -34,16 +46,9 @@ export default function WorkSection({ works }) {
           </div>
         ))}
       </div>
-      {zoomedImage && (
-        <div
-          className={`${styles.zoomedOverlay} ${isZooming ? styles.show : ""}`}
-          onClick={handleClickOutside}
-        >
-          <div className={styles.zoomedImageContainer}>
-            <img src={zoomedImage} alt="Zoomed in" className={styles.zoomedImage} />
-          </div>
-        </div>
-      )}
+      
+      {/* Render the zoomedOverlay using a portal */}
+      {zoomedOverlay && createPortal(zoomedOverlay, document.body)}
     </div>
   );
 }

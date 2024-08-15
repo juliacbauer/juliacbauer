@@ -47,7 +47,6 @@ export default function Header() {
                             <p className={styles.hoverLink}><Link href="/journalism">Journalism</Link></p>
                             <p className={styles.hoverLink}><Link href="/design">Design</Link></p>
                             <p className={styles.hoverLink}><Link href="/development">Development</Link></p>
-                            <p className={styles.hoverLink}><Link href="/fun">Just for Fun</Link></p>
                         </div>
                     )}
                 </div>
