@@ -35,9 +35,11 @@ export default function Header() {
     return (
         <header className={styles.container}>
             <div className={styles.logoLeft}>
-                <p>
+            <div className={styles.logoContainer}>
+                <div className={styles.logoPlaceholder}>
                     <Link href="/"><img className={`${styles.logo} ${styles.bob}`} src="/finalpersonallogo.webp" alt="Logo" /></Link>
-                </p>
+            </div>
+            </div>
             </div>
             <div className={styles.rightLinks}>
                 <div onClick={onClickLists} style={{ cursor: "pointer" }}>

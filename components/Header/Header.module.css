@@ -61,6 +61,20 @@
     z-index: 1;
 }
 
+.logoContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.logoPlaceholder {
+    width: 45px;
+    height: 45px; 
+    background-color: #fcfbf5;
+    display: inline-block;
+}
+
+
 .logo {
     width: 45px;
     height: auto;
@@ -105,5 +119,10 @@
     .logo {
         width: 35px;
     }
+
+    .logoPlaceholder {
+        width: 35;
+        height: 35px; 
+    }    
     
 }
