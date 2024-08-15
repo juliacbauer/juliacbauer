@@ -23,19 +23,6 @@
     background-color: #fbf6c0;
     border-radius: 10px;
     z-index: 2;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
-}
-
-.displayLists.fadeIn {
-    opacity: 1;
-    visibility: visible;
-}
-
-.displayLists.fadeOut {
-    opacity: 0;
-    visibility: hidden;
 }
 
 .hoverLink {
@@ -69,29 +56,8 @@
 .logoPlaceholder {
     width: 45px;
     height: 45px; 
-    background-color: #fcfbf5;
     display: inline-block;
 }
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-  }
-  
-  .fadeIn {
-    opacity: 0;
-    animation: fadeIn 1s ease-out forwards;
-  }
-  
-  .logoContainer {
-    opacity: 0;
-    animation: fadeIn 1s ease-out forwards;
-  }
-  
 
 .logo {
     width: 45px;
