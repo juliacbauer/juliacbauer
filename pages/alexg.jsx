@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
+import Link from "next/link";
 
 export default function AlexG() {
     return (
@@ -32,6 +33,10 @@ export default function AlexG() {
                         />
                     </ScrollTriggeredSection>
                 </div>
+                <br />
+                <Link href="/design#designs">
+                    <p>Return to Design page</p>
+                </Link>
             </main>
             <Footer />
         </>

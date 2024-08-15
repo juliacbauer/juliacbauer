@@ -16,22 +16,10 @@ export default function Design() {
       description: "Winterborn LLC Website",
     },
     {
-      link: "/flkids",
-      image: "/flkids.webp",
-      alt: "Image of FL Kids Eat Well logo",
-      description: "Florida Kids Eat Well Logo Design",
-    },
-    {
-      link: "/portiko",
-      image: "/portiko.webp",
-      alt: "Image of Portiko logo",
-      description: "Portiko Branding",
-    },
-    {
-      link: "/emailblast",
-      image: "/emailblast.gif",
-      alt: "Image of pet adoption email blast",
-      description: "Pet Adoption Email Blast",
+      link: "/personalbranding",
+      image: "/personaldesign.webp",
+      alt: "Image of personal branding elements",
+      description: "Personal Branding",
     },
     {
       link: "/cookbook",
@@ -40,10 +28,10 @@ export default function Design() {
       description: "Colorful Cooking Cookbook Design",
     },
     {
-      link: "/alexg",
-      image: "/alexg.gif",
-      alt: "Image of Alex G website redesign homepage",
-      description: "Alex G Website Redesign",
+      link: "/portiko",
+      image: "/portiko.webp",
+      alt: "Image of Portiko logo",
+      description: "Portiko Branding",
     },
     {
       link: "/adcampaign",
@@ -52,10 +40,22 @@ export default function Design() {
       description: "Travel Vida Social Media Campaign",
     },
     {
-      link: "/personalbranding",
-      image: "/personaldesign.webp",
-      alt: "Image of personal branding elements",
-      description: "Personal Branding",
+      link: "/emailblast",
+      image: "/emailblast.gif",
+      alt: "Image of pet adoption email blast",
+      description: "Pet Adoption Email Blast",
+    },
+    {
+      link: "/alexg",
+      image: "/alexg.gif",
+      alt: "Image of Alex G website redesign homepage",
+      description: "Alex G Website Redesign",
+    },
+    {
+      link: "/flkids",
+      image: "/flkids.webp",
+      alt: "Image of FL Kids Eat Well logo",
+      description: "Florida Kids Eat Well Logo Design",
     },
   ];
   return (
@@ -77,13 +77,16 @@ export default function Design() {
             <div className={styles.spacer} />
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>Design is a crucial part of visual communication and shapes the presence of any brand. The right colors, fonts and composition have the power to convey a brand's message effectively and in engaging and aesthetically pleasing manner.</p>
+              <p>Through my design courses, I have learned the science of design and how to use industry-standard tools including Adobe Photoshop, InDesign and Illustrator. These skills have empowered me to create compelling visuals, capture an audience's attention and communicate clear messages. Below is a collection of my work, including my personal branding and a website I designed as part of my freelance work.</p>
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
+            <section id="designs">
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
               <WorkSection works={works} />
             </ScrollTriggeredSection>
+            </section>
             <div className={styles.spacer} />
             <div className={styles.spacer} />
           </div>

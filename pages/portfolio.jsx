@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
+import Link from "next/link";
 
 export default function Cinememo() {
     return (
@@ -19,7 +20,7 @@ export default function Cinememo() {
                         <WorkPage
                             title="Cinememo"
                             paragraphs={[
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
+                                "Cumulative layout shifts",
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
                             ]}
@@ -32,6 +33,10 @@ export default function Cinememo() {
                         />
                     </ScrollTriggeredSection>
                 </div>
+                <br />
+                <Link href="/development#apps">
+                    <p>Return to Development page</p>
+                </Link>
             </main>
             <Footer />
         </>

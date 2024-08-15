@@ -46,8 +46,6 @@ export default function WorkSection({ works }) {
           </div>
         ))}
       </div>
-      
-      {/* Render the zoomedOverlay using a portal */}
       {zoomedOverlay && createPortal(zoomedOverlay, document.body)}
     </div>
   );

@@ -57,20 +57,19 @@ export default function Dev() {
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
               <div className={styles.pDiv}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
+                <p>Through my web development courses, I have learned the importance of building responsive, functional and visually appealing websites that consider accessibility and optimize user experience.</p>
               </div>
               <div className={styles.pDiv}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam molestiae fugit fuga at. Ab unde ut, ducimus provident culpa enim ipsam facere explicabo officia mollitia fugiat, maxime error sequi!</p>
-              </div>
-              <div className={styles.pDiv}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati aperiam molestiae fugit fuga at. Ab unde ut, ducimus provident culpa enim ipsam facere explicabo officia mollitia fugiat, maxime error sequi!</p>
+                <p>My skills in HTML and CSS allow me to effectively structure and style content while my experience with React and Next.js allows me to build interactive and dynamic web applications. For anything web-related, I prioritize UX/UI design by approaching projects with a user mindset. This allows me to create intuitive and engaging interfaces that all users can navigate.</p>
               </div>
             </ScrollTriggeredSection>
-            <div className={styles.spacer} />
-            <div className={styles.spacer} />
-            <ScrollTriggeredSection>
-              <WorkSection works={works1} />
-            </ScrollTriggeredSection>
+            <section id="apps">
+              <div className={styles.spacer} />
+              <div className={styles.spacer} />
+              <ScrollTriggeredSection>
+                <WorkSection works={works1} />
+              </ScrollTriggeredSection>
+            </section>
             <div className={styles.spacer} />
             <div className={styles.spacer} />
             <ScrollTriggeredSection>

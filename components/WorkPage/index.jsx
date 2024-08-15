@@ -1,9 +1,40 @@
 import styles from "./WorkPage.module.css"
 import Link from "next/link";
 import ScrollTriggeredSection from "../Scroll";
-
+import { useState } from "react";
+import { createPortal } from "react-dom";
 
 export default function WorkPage({ title, paragraphs, images, link }) {
+
+    const [zoomedImage, setZoomedImage] = useState(null);
+    const [isZooming, setIsZooming] = useState(false);
+  
+
+    const handleImageClick = (imageSrc) => {
+        setZoomedImage(imageSrc)
+        setTimeout(() => {
+          setIsZooming(true)
+        }, 10)
+      };
+    
+      const handleClickOutside = () => {
+        setIsZooming(false)
+        setTimeout(() => {
+          setZoomedImage(null)
+        }, 500)
+      };
+    
+      const zoomedOverlay = zoomedImage && (
+        <div
+          className={`${styles.zoomedOverlay} ${isZooming ? styles.show : ""}`}
+          onClick={handleClickOutside}
+        >
+          <div className={styles.zoomedImageContainer}>
+            <img src={zoomedImage} alt="Zoomed in" className={styles.zoomedImage} />
+          </div>
+        </div>
+      );
+
     return (
         <section>
             <ScrollTriggeredSection>
@@ -14,7 +45,7 @@ export default function WorkPage({ title, paragraphs, images, link }) {
             </ScrollTriggeredSection>
             <ScrollTriggeredSection>
                 {link && (
-                    <Link className={styles.link} href={link.href}>
+                    <Link className={styles.link} href={link.href} target="_blank">
                         <p>{link.text}</p>
                     </Link>
                 )}
@@ -27,7 +58,9 @@ export default function WorkPage({ title, paragraphs, images, link }) {
                                 key={index}
                                 src={src}
                                 alt={`Content image ${index + 1}`}
+                                onClick={() => handleImageClick(src)}
                             />
+                             {zoomedOverlay && createPortal(zoomedOverlay, document.body)}
                         </ScrollTriggeredSection>
                     ))}
                 </div>

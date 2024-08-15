@@ -193,6 +193,7 @@ export default function About() {
             </ScrollTriggeredSection>
           </div>
         </div>
+        <div className={styles.smallSpacer} />
       </main>
       <Footer />
     </>

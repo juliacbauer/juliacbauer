@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
+import Link from "next/link";
 
 export default function Cinememo() {
     return (
@@ -23,15 +24,18 @@ export default function Cinememo() {
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
                             ]}
-                            link={{ href: "https://example.com", text: "Check out my work" }}
+                            link={{ href: "/colorfulcooking.pdf", text: "Check out my work" }}
                             images={[
-                                "/cinememo.webp",
                                 "/cinememo.webp",
                                 "/cinememo.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>
                 </div>
+                <br />
+                <Link href="/design#designs">
+                    <p>Return to Design page</p>
+                </Link>
             </main>
             <Footer />
         </>

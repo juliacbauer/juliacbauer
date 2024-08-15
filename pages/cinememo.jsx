@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
+import Link from "next/link";
 
 export default function Cinememo() {
     return (
@@ -32,7 +33,10 @@ export default function Cinememo() {
                         />
                     </ScrollTriggeredSection>
                 </div>
-                <p>Return to Development page</p>
+                <br />
+                <Link href="/development#apps">
+                    <p>Return to Development page</p>
+                </Link>
             </main>
             <Footer />
         </>
