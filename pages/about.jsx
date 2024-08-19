@@ -184,7 +184,7 @@ export default function About() {
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
-              <h2>Photography</h2>
+              <h2>Just for Fun</h2>
               <p>Nature shots. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
               <div className={styles.smallSpacer} />
               <ScrollTriggeredSection>

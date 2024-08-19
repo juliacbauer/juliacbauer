@@ -77,8 +77,8 @@ export default function Design() {
             <div className={styles.spacer} />
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
-              <p>Design is a crucial part of visual communication and shapes the presence of any brand. The right colors, fonts and composition have the power to convey a brand's message effectively and in engaging and aesthetically pleasing manner.</p>
-              <p>Through my design courses, I have learned the science of design and how to use industry-standard tools including Adobe Photoshop, InDesign and Illustrator. These skills have empowered me to create compelling visuals, capture an audience's attention and communicate clear messages. Below is a collection of my work, including my personal branding and a website I designed as part of my freelance work.</p>
+              <p>Design is a crucial part of visual communication and shapes the presence and perception of all brands. The right colors, fonts and composition have the power to convey a message effectively and in engaging and aesthetically pleasing manner.</p>
+              <p>Through my design courses, I have learned the science of design and how to use industry-standard tools including Adobe Photoshop, InDesign and Illustrator. These skills have empowered me to create compelling visuals, capture an audience's attention and communicate clear messages. Below is a collection of my work, including a website I designed as part of my freelance work and my personal branding.</p>
             </ScrollTriggeredSection>
             <div className={styles.spacer} />
             <section id="designs">

@@ -57,7 +57,7 @@ export default function Dev() {
             <div className={styles.spacer} />
             <ScrollTriggeredSection>
               <div className={styles.pDiv}>
-                <p>Through my web development courses, I have learned the importance of building responsive, functional and visually appealing websites that consider accessibility and optimize user experience.</p>
+                <p>Through my web development courses, I have learned the importance of building responsive, functional and visually appealing websites that optimize user experience and are accessible to all.</p>
               </div>
               <div className={styles.pDiv}>
                 <p>My skills in HTML and CSS allow me to effectively structure and style content while my experience with React and Next.js allows me to build interactive and dynamic web applications. For anything web-related, I prioritize UX/UI design by approaching projects with a user mindset. This allows me to create intuitive and engaging interfaces that all users can navigate.</p>

@@ -39,14 +39,16 @@ export default function WorkPage({ title, paragraphs, images, link }) {
         <section>
             <ScrollTriggeredSection>
                 <h1 className={styles.h1}>{title}</h1>
+                <div className={styles.workInfo}>
                 {paragraphs.map((text, index) => (
                     <p className={styles.workP} key={index}>{text}</p>
                 ))}
+                </div>
             </ScrollTriggeredSection>
             <ScrollTriggeredSection>
                 {link && (
-                    <Link className={styles.link} href={link.href} target="_blank">
-                        <p>{link.text}</p>
+                    <Link href={link.href} target="_blank">
+                        <p className={styles.link}>{link.text}</p>
                     </Link>
                 )}
             </ScrollTriggeredSection>

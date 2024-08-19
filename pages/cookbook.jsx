@@ -24,7 +24,7 @@ export default function Cinememo() {
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
                             ]}
-                            link={{ href: "/colorfulcooking.pdf", text: "Check out my work" }}
+                            link={{ href: "/colorfulcooking.pdf", text: "View full PDF" }}
                             images={[
                                 "/cinememo.webp",
                                 "/cinememo.webp",

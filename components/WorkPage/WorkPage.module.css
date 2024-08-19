@@ -12,10 +12,14 @@
 
 .h1 {
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .link {
-    color: brown;
+    color: #4b6a6a;
+    font-family: "Headings";
+    margin-bottom: 40px;
 }
 
 .workImg {
@@ -27,6 +31,10 @@
 
 .workP {
     text-align: left;
+}
+
+.workInfo {
+    margin-bottom: 50px;
 }
 
 .workImg:hover {
