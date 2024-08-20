@@ -13,7 +13,7 @@ export default function Design() {
       link: "/winterborn",
       image: "/winterborn.webp",
       alt: "Image of Winterborn homepage",
-      description: "Winterborn LLC Website",
+      description: "Winterborn, LLC Website",
     },
     {
       link: "/personalbranding",
@@ -25,7 +25,7 @@ export default function Design() {
       link: "/cookbook",
       image: "/indesign.webp",
       alt: "Image of cookbook cover design",
-      description: "Colorful Cooking Cookbook Design",
+      description: "Colorful Cooking Recipe Book",
     },
     {
       link: "/portiko",

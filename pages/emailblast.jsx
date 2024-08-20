@@ -18,17 +18,15 @@ export default function Cinememo() {
                 <div>
                     <ScrollTriggeredSection>
                         <WorkPage
-                            title="Cinememo"
+                            title="Pet Adoption Email Blast"
                             paragraphs={[
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
+                                "One of my Photoshop class projects was to create an email blast for a humane society's summer adoption event. We were given copy and a logo to include and were asked to include a call to action.",
+                                "I decided to animate the email blast with summery pet gifs to emphasize the summer theme. I felt that the animals wearing beach gear and playing with beach toys would appeal to the viewer's emotions. Aditionally, I used the fun colors from their logo as a color palette, and chose a bubbly font to encourage views to participate in the adoption event.",
                             ]}
-                            link={{ href: "https://example.com", text: "Check out my work" }}
                             images={[
-                                "/cinememo.webp",
-                                "/cinememo.webp",
-                                "/cinememo.webp",
+                                "/emailgif.gif",
+                                "/email1.webp",
+                                "/email2.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>

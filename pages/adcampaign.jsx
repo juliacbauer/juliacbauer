@@ -18,7 +18,7 @@ export default function AdCampaign() {
                 <div>
                     <ScrollTriggeredSection>
                         <WorkPage
-                            title="Travel Vida Ad Campaign"
+                            title="Travel Vida Social Media Campaign"
                             paragraphs={[
                                 "This social media ad campaign was an exercise for my Photoshop class. The ficitonal company, Travel Vida, had a target audience of young adults and wanted to appeal to group travelers and solo travelers looking to meet people. The company wanted to create a unified, cohesive social media media ad campaign across Instagram and Facebook.",
                                 "I chose photos I felt would appeal to young adults with a focus on the togetherness aspect of the company and used the company's logo as inspiration for my color choices. However, I felt like the photos and text were not enough, so I designed a shape accent that I used across the ads, varying the colors depending on the photo.",

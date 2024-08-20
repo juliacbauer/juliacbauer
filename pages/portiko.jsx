@@ -18,17 +18,16 @@ export default function Cinememo() {
                 <div>
                     <ScrollTriggeredSection>
                         <WorkPage
-                            title="Cinememo"
+                            title="Portiko Branding"
                             paragraphs={[
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
+                                "In my Illustrator course, we were presented with Portiko Technologies, a fictional technology company my in need of cutting-edge yet timeless branding. We were asked to design a logo, style guide, business card, letterhead and website homepage for the company.",
+                                "To accomplish the cutting-edge yet timeless identity Portiko was looking for, I chose a techy shade of blue for the brand's main color and decided to use a light gray color for their typography and set it on a dark gray background. I felt the light text against the dark background was a bit of a risk design-wise, but I believed it would create a nice contrast, and – along with the wide-set heading font I chose – accomplish that progressive feeling the company was looking for.",
                             ]}
-                            link={{ href: "https://example.com", text: "Check out my work" }}
+                            link={{ href: "/portikoguide.pdf", text: "View full brand guide" }}
                             images={[
-                                "/cinememo.webp",
-                                "/cinememo.webp",
-                                "/cinememo.webp",
+                                "/portiko2.webp",
+                                "/portiko1.webp",
+                                "/portiko3.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>
