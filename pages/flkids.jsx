@@ -32,7 +32,8 @@ export default function Cinememo() {
                     </ScrollTriggeredSection>
                 </div>
                 <br />
-                <Link href="/design#designs">
+                <br />
+                <br />                <Link href="/design#designs">
                     <p>Return to Design page</p>
                 </Link>
             </main>
