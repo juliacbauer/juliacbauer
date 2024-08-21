@@ -164,7 +164,7 @@ export default function About() {
                       className={styles.aboutImg}
                     />
                   </div>
-                  <p className={styles.aboutP}>I am a communications professional with a passion for storytelling and visual communication. I have always loved visual arts; I was a dancer from age two to 18 and love to draw in my freetime. My lifelong passion for visual art only grew during my time in college. As a journalist, I am a strong writer and multimedia reporter who can tell compelling stories across platforms. As a digital designer with programming skills, I take pride in creating aesthetic and engaging digital media that optimizes user experience. Regardless of the communication channel, my ultimate goal is to tell meaningful and impactful stories that resonate with and connect audiences.</p>
+                  <p className={styles.aboutP}>I am a communications professional with a passion for storytelling and visual communication. I have always loved visual arts; I was a dancer from ages two to 18 and love to draw in my freetime. My lifelong passion for visual art only grew during my time in college. As a journalist, I am a strong writer and multimedia reporter who can tell compelling stories across platforms. As a digital designer with programming skills, I take pride in creating aesthetic and engaging digital media that optimizes user experience. Regardless of the communication channel, my ultimate goal is to create content that resonates with and connects audiences.</p>
                 </div>
               </ScrollTriggeredSection>
             </div>
