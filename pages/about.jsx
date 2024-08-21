@@ -159,7 +159,7 @@ export default function About() {
                 <div className={styles.aboutDiv}>
                   <div className={styles.imgContainer}>
                     <LazyLoadedHome
-                      src="/jouMeGraphic.webp"
+                      src="/aboutMe.webp"
                       alt="Headshot"
                       className={styles.aboutImg}
                     />
