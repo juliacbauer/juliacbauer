@@ -21,8 +21,8 @@ export default function Cinememo() {
                             title="Cinememo"
                             paragraphs={[
                                 "Cinememo is a movie and TV show tracking app I developed, designed and presented as my capstone project for my master’s degree. It is a fully functioning CRUD app developed using MongoDB, Next.js and React.",
-                                "The app allows users to create an account, search for movie and TV show titles using the OMDb API, view details about the titles, add and remove titles to and from their user lists, and it also allows users to generate a random movie pick.",
-                                "Although Cinememo is functional and user friendly, it is nothing without its design. The design was inspired by elements of old-school cinema, like film strips and 3D glasses. I wanted to create a sleek, clean brand that also evokes a feeling of nostalgia in the user.",
+                                "The app allows users to create an account, search for movie and TV show titles using the OMDb API, view details about the titles and add and remove titles to and from their user lists. It also allows users to generate a random movie pick.",
+                                "Although Cinememo is functional and user friendly, it is nothing without its design. I was inspired by elements of old-school cinema, like film strips and 3D glasses, and wanted to create a sleek, clean brand that also evokes a feeling of nostalgia in the user.",
                                 "Don't hesitate to create an account and try out the app!",
                             ]}
                             link={{ href: "https://cinememo.vercel.app/", text: "Start using Cinememo" }}

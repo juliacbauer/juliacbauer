@@ -20,9 +20,8 @@ export default function AdCampaign() {
                         <WorkPage
                             title="Travel Vida Social Media Campaign"
                             paragraphs={[
-                                "This social media ad campaign was an exercise for my Photoshop class. The ficitonal company, Travel Vida, had a target audience of young adults and wanted to appeal to group travelers and solo travelers looking to meet people. The company wanted to create a unified, cohesive social media media ad campaign across Instagram and Facebook.",
-                                "I chose photos I felt would appeal to young adults with a focus on the togetherness aspect of the company and used the company's logo as inspiration for my color choices. However, I felt like the photos and text were not enough, so I designed a shape accent that I used across the ads, varying the colors depending on the photo.",
-                                "For the Instagram story GIF, I envisioned a long shot of people on a cliff, but I couldn't find an image that fufilled my vision. So, I photoshopped the group of people from one photo and placed them on the cliff in the GIF."
+                                "This social media ad campaign was an exercise for my Photoshop class. The ficitonal company, Travel Vida, had a target audience of young adults and wanted to appeal to group travelers and solo travelers looking to meet people. The company wanted to create a unified, cohesive social media ad campaign across Instagram and Facebook.",
+                                "I chose photos I felt would appeal to young adults with a focus on the togetherness aspect of the company, and I used the company's logo as inspiration for my color choices. However, I felt like the imagery and copy I wrote was not enough. So, I designed a shape accent that I used across the ads, varying the colors depending on the photo.",
                             ]}
                             images={[
                                 "/adcampaign.webp",

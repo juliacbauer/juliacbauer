@@ -164,15 +164,14 @@ export default function About() {
                       className={styles.aboutImg}
                     />
                   </div>
-                  <p className={styles.aboutP}>I am a communications professional with a passion for storytelling and visual communication. As a journalist, I am a strong writer, and my experience with filming and video/audio editing has given me the ability to tell compelling stories across any platforms. As a digital designer with Adobe Creative Suite and programming skills, I take pride in designing and developing aesthetic and engaging digital media that optimizes user experience. Regardless of the communication channel, my ultimate goal is to tell meaningful and impactful stories that resonate with and connect audiences.
-                  </p>
+                  <p className={styles.aboutP}>I am a communications professional with a passion for storytelling and visual communication. I have always loved visual arts; I was a dancer from age two to 18 and love to draw in my freetime. My lifelong passion for visual art only grew during my time in college. As a journalist, I am a strong writer and multimedia reporter who can tell compelling stories across platforms. As a digital designer with programming skills, I take pride in creating aesthetic and engaging digital media that optimizes user experience. Regardless of the communication channel, my ultimate goal is to tell meaningful and impactful stories that resonate with and connect audiences.</p>
                 </div>
               </ScrollTriggeredSection>
             </div>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
               <h2>Experience</h2>
-              <p>Irving Publications (Wellness360, Giggle, Giggle Jupiter Magazines) | Editorial Intern, Web Editor | January 2022 – Present</p>
+              <p>Irving Publications (Wellness360 Magazine, Giggle Magazine, Giggle Magazine Jupiter) | Editorial Intern, Web Editor | January 2022 – Present</p>
               <p>University of Florida Alumni Association | Strategic Communications Intern | January 2023 – May 2023</p>
               <p>Winterborn, LLC | Freelance Web Designer | December 2022 – January 2023</p>
               <p>WUFT News | Reporter Intern | August 2022 – December 2022</p>
@@ -188,13 +187,13 @@ export default function About() {
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
               <h2>Education</h2>
-              <p>MA in Mass Communication, concentration in Web Design | UF | August 2022 – August 2024.</p>
-              <p>BS in Journalism, minor in Communication Studies | UF | August 2019 – May 2023.</p>
+              <p>MA in Mass Communication, concentration in Web Design & Online Communication | UF | August 2022 – August 2024</p>
+              <p>BS in Journalism, minor in Communication Studies | UF | August 2019 – May 2023</p>
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
               <h2>Just for Fun</h2>
-              <p>I love capturing world's small, beautiful moments, which is why I have always been passionate about photography. Although I don't own a professional camera, my iPhone still allows me to capture moments that may otherwise go unnoticed. The gallery below is full of my favorite shots – one-of-a-kind images taken from the tops of mountains to right in my own backyard.</p>
+              <p>I love capturing the world's small, beautiful moments, which is why I have always been passionate about photography. Although I don't own a professional camera, my iPhone still allows me to capture moments that may otherwise go unnoticed. The gallery below is full of my favorite shots – one-of-a-kind images taken from the tops of mountains to right in my own backyard.</p>
               <div className={styles.smallSpacer} />
               <ScrollTriggeredSection>
                 <PersonalSection works={works} />

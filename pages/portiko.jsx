@@ -20,8 +20,8 @@ export default function Portiko() {
                         <WorkPage
                             title="Portiko Branding"
                             paragraphs={[
-                                "In my Illustrator course, we were presented with Portiko Technologies, a fictional technology company my in need of cutting-edge yet timeless branding. We were asked to design a logo, style guide, business card, letterhead and website homepage for the company.",
-                                "To accomplish the cutting-edge yet timeless identity Portiko was looking for, I chose a techy shade of blue for the brand's main color and decided to use a light gray color for their typography and set it on a dark gray background. I felt the light text against the dark background was a bit of a risk design-wise, but I believed it would create a nice contrast, and – along with the wide-set heading font I chose – accomplish that progressive feeling the company was looking for.",
+                                "In my Illustrator course, we were presented with Portiko Technologies, a fictional technology company in need of cutting-edge yet timeless branding. We were asked to design a logo, style guide, business card, letterhead and website homepage for the company.",
+                                "To accomplish the cutting-edge yet timeless identity Portiko was looking for, I chose a techy shade of blue for the brand's main color and decided to use a light gray color for their typography, setting these elements on a dark gray background. I felt the light text against the dark background was a bit of a risk design-wise, but I believed it would create a nice contrast, and – along with the wide-set heading font I chose – accomplish that progressive feeling the company was looking for.",
                             ]}
                             link={{ href: "/portikoguide.pdf", text: "View full brand guide" }}
                             images={[

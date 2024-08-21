@@ -120,7 +120,8 @@ export default function Journalism() {
           <div className={styles.spacer} />
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
-            <p className={styles.mainP}>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, and journalists play a crucial role in bringing them to light. However, a good journalist rarely has a full story in mind. Rather, a good journalist allows the narrative to reveal itself, prioritizing human connection and using their words to bridge the gap between one person and an entire audience. My work history has given me the opportunity to do just that.</p>
+            <p className={styles.mainP}>Grammar, fact-checking and other technical skills aside, journalism is all about storytelling at its core. Everyone has a story, but not everyone has the voice, platform or resources necessary to share their story. Journalists bring these untold narratives to light and bridge the gap between one person and an entire audience.</p>
+            <p>However, a good journalist rarely jumps into covering a story with a complete picture in mind. Rather, they allow the narrative to reveal itself, approaching interviews with human connection as their main priority. As my time as a reporter for different news outlets, I did just that.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
@@ -139,9 +140,9 @@ export default function Journalism() {
           <div className={styles.spacer} />
           <ScrollTriggeredSection>
             <h2>Irving Publications</h2>
-            <p>Established in 2009, Irving Publications, LLC produces two bimonthly award-winning publications: Giggle Magazine, the No. 1 parenting resource in Gainesville, and Wellness360 Magazine, a health and wellness publication and has recently expanded to include Giggle Magazine Jupiter.</p>
-            <p>I started as an editorial intern in January 2022, writing print stories for Giggle and Wellness360 and managing the print event calendars. I loved writing about anything from school district accomplishments to fitness, so much so that I continued interning through summer 2023.</p>
-            <p>Beginning that fall, my role grew into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and SEO optimization.</p>
+            <p>Established in 2009, Irving Publications, LLC produces two bimonthly award-winning publications: Giggle Magazine, the No. 1 parenting resource in Gainesville, and Wellness360 Magazine, a health and wellness publication. In 2023, the company introduced Giggle Magazine Jupiter.</p>
+            <p>I started as an editorial intern in January 2022, writing print stories for Giggle and Wellness360 and managing the print event calendars. I loved writing about anything from school district accomplishments to fitness, so much so that I continued interning through the summer of 2023.</p>
+            <p>Beginning that fall, my role grew from editorial intern into writer and web editor. I manage the WordPress websites for all three publications, including their web analytics, print and online calendars and email marketing while writing, assigning and editing stories for print and online SEO optimization.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
           <div className={styles.spacer} />
@@ -155,7 +156,7 @@ export default function Journalism() {
           <ScrollTriggeredSection>
             <h2>UF Alumni Association</h2>
             <p>At the UF Alumni Association, I was a strategic communications intern for Florida Gator Magazine, the quarterly print publication uniting the worldwide network of Gator alumni.</p>
-            <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about a random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
+            <p>I had the opportunity to tell the stories of extraordinary UF graduates, inspiring other Gators and nourishing a global sense of community. I was also fortunate enough to share my own story through this publication. This personal piece – about my random roommate turned best friend of five years – was published upon the completion of my undergraduate degree.</p>
           </ScrollTriggeredSection>
           <div className={styles.spacer} />
           <div className={styles.spacer} />

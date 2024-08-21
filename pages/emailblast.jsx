@@ -20,8 +20,8 @@ export default function EmailBlast() {
                         <WorkPage
                             title="Pet Adoption Email Blast"
                             paragraphs={[
-                                "One of my Photoshop class projects was to create an email blast for a humane society's summer adoption event. We were given copy and a logo to include and were asked to include a call to action.",
-                                "I decided to animate the email blast with summery pet gifs to emphasize the summer theme. I felt that the animals wearing beach gear and playing with beach toys would appeal to the viewer's emotions. Aditionally, I used the fun colors from their logo as a color palette, and chose a bubbly font to encourage views to participate in the adoption event. Below you can see the final email blast and my initial concept sketches.",
+                                "One of my Photoshop projects was to create an email blast for a humane society's summer adoption event. We were given copy and a logo to include.",
+                                "I decided to animate the email blast with summery pet gifs to emphasize the premise of the event. I felt that the animals wearing beach gear and playing with beach toys would appeal to the viewer's emotions and encourage them to adopt an animal from the shelter. Aditionally, I used the colors from their logo as a color palette and chose a bubbly font to make the email blast have a fun tone.",
                             ]}
                             images={[
                                 "/emailgif.gif",
