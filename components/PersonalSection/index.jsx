@@ -7,14 +7,14 @@ export default function WorkSection({ works }) {
   const [zoomedImage, setZoomedImage] = useState(null);
   const [isZooming, setIsZooming] = useState(false);
 
-  const handleImageClick = (imageSrc) => {
+  function handleImageClick(imageSrc) {
     setZoomedImage(imageSrc)
     setTimeout(() => {
       setIsZooming(true)
     }, 10)
   };
 
-  const handleClickOutside = () => {
+  function handleClickOutside() {
     setIsZooming(false)
     setTimeout(() => {
       setZoomedImage(null)

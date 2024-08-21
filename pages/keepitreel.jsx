@@ -5,7 +5,7 @@ import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
 import Link from "next/link";
 
-export default function Cinememo() {
+export default function KeepItReel() {
     return (
         <>
             <Head>
@@ -25,8 +25,8 @@ export default function Cinememo() {
                             ]}
                             link={{ href: "https://renabmew.github.io/com6338-10-10-bauer-brown-colver/index.html", text: "Visit website" }}
                             images={[
-                                "/keepitreel1.webp",
                                 "/keepitreel3.webp",
+                                "/keepitreel.webp",
                                 "/keepitreel2.webp",
                             ]}
                         />

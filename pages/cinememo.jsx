@@ -27,9 +27,9 @@ export default function Cinememo() {
                             ]}
                             link={{ href: "https://cinememo.vercel.app/", text: "Start using Cinememo" }}
                             images={[
+                                "/cinememo2.webp",
                                 "/cinememo.webp",
                                 "/cinememo1.webp",
-                                "/cinememo2.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>

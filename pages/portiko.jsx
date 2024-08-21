@@ -5,7 +5,7 @@ import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
 import Link from "next/link";
 
-export default function Cinememo() {
+export default function Portiko() {
     return (
         <>
             <Head>
@@ -25,9 +25,9 @@ export default function Cinememo() {
                             ]}
                             link={{ href: "/portikoguide.pdf", text: "View full brand guide" }}
                             images={[
+                                "/portiko3.webp",
                                 "/portiko2.webp",
                                 "/portiko1.webp",
-                                "/portiko3.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>

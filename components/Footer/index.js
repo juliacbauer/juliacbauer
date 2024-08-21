@@ -3,10 +3,10 @@ import styles from "./Footer.module.css";
 export default function Footer() {
     const email = "juliabauercomm@gmail.com";
 
-    const handleEmailClick = () => {
+    function handleEmailClick() {
         window.location.href = `mailto:${email}`;
     }
-    
+
     return (
         <footer className={styles.container}>
             <div className={styles.linkDiv}>

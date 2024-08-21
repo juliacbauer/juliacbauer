@@ -1,5 +1,5 @@
-import { LazyLoadImage } from 'react-lazy-load-image-component';
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import styles from "./LazyLoad.module.css";
 
 export default function LazyLoadedImage({ src, alt, className }) {

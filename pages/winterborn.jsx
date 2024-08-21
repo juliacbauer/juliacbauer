@@ -5,7 +5,7 @@ import ScrollTriggeredSection from "../components/Scroll/index";
 import WorkPage from "../components/WorkPage";
 import Link from "next/link";
 
-export default function Cinememo() {
+export default function Winterborn() {
     return (
         <>
             <Head>

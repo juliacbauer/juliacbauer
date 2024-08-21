@@ -13,7 +13,7 @@ export default function LazyLoadedMain({ src, alt, className }) {
         src={src}
         width="100%"
         height="auto"
-        className={`${styles.image} ${isLoaded ? styles.loaded : ''}`}
+        className={`${styles.image} ${isLoaded ? styles.loaded : ""}`}
         onLoad={() => setIsLoaded(true)}
         effect="blur"
       />
