@@ -25,7 +25,7 @@
 }
 
 .aboutP {
-  margin-top: 40px;
+  margin-top: 27px;
   max-width: 60%;
   object-fit: contain;
   position: sticky;
@@ -59,6 +59,7 @@
 .linkExperience {
   color: #4b6a6a;
   font-family: "Headings";
+  margin-top: 25px;
 }
 
 @keyframes bob {

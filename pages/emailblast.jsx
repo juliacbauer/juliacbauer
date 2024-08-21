@@ -21,7 +21,7 @@ export default function Cinememo() {
                             title="Pet Adoption Email Blast"
                             paragraphs={[
                                 "One of my Photoshop class projects was to create an email blast for a humane society's summer adoption event. We were given copy and a logo to include and were asked to include a call to action.",
-                                "I decided to animate the email blast with summery pet gifs to emphasize the summer theme. I felt that the animals wearing beach gear and playing with beach toys would appeal to the viewer's emotions. Aditionally, I used the fun colors from their logo as a color palette, and chose a bubbly font to encourage views to participate in the adoption event.",
+                                "I decided to animate the email blast with summery pet gifs to emphasize the summer theme. I felt that the animals wearing beach gear and playing with beach toys would appeal to the viewer's emotions. Aditionally, I used the fun colors from their logo as a color palette, and chose a bubbly font to encourage views to participate in the adoption event. Below you can see the final email blast and my initial concept sketches.",
                             ]}
                             images={[
                                 "/emailgif.gif",

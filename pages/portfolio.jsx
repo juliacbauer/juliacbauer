@@ -18,7 +18,7 @@ export default function Cinememo() {
                 <div>
                     <ScrollTriggeredSection>
                         <WorkPage
-                            title="Cinememo"
+                            title="Portfolio Website"
                             paragraphs={[
                                 "Cumulative layout shifts",
                                 "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
@@ -26,9 +26,9 @@ export default function Cinememo() {
                             ]}
                             link={{ href: "https://example.com", text: "Check out my work" }}
                             images={[
-                                "/cinememo.webp",
-                                "/cinememo.webp",
-                                "/cinememo.webp",
+                                "/portfolio.webp",
+                                "/portfolio1.webp",
+                                "/portfolio2.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>

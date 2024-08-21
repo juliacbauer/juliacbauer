@@ -164,28 +164,37 @@ export default function About() {
                       className={styles.aboutImg}
                     />
                   </div>
-                  <p className={styles.aboutP}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam.</p>
+                  <p className={styles.aboutP}>I am a communications professional with a passion for storytelling and visual communication. As a journalist, I am a strong writer, and my experience with filming and video/audio editing has given me the ability to tell compelling stories across any platforms. As a digital designer with Adobe Creative Suite and programming skills, I take pride in designing and developing aesthetic and engaging digital media that optimizes user experience. Regardless of the communication channel, my ultimate goal is to tell meaningful and impactful stories that resonate with and connect audiences.
+                  </p>
                 </div>
               </ScrollTriggeredSection>
             </div>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
               <h2>Experience</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae.</p>
-            </ScrollTriggeredSection>
-            <div className={styles.smallSpacer} />
-            <ScrollTriggeredSection>
-              <h2>Education</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis non voluptatem ad delectus. Dolore architecto, deserunt ratione vel, magnam ducimus soluta sint quo, earum quos consequatur iure sequi ab repudiandae. View all of my experience on my
+              <p>Irving Publications (Wellness360, Giggle, Giggle Jupiter Magazines) | Editorial Intern, Web Editor | January 2022 – Present</p>
+              <p>University of Florida Alumni Association | Strategic Communications Intern | January 2023 – May 2023</p>
+              <p>Winterborn, LLC | Freelance Web Designer | December 2022 – January 2023</p>
+              <p>WUFT News | Reporter Intern | August 2022 – December 2022</p>
+              <p>WUFT News | Contributing Television News Reporter | April 2022</p>
+              <p>The Gainesville Sun | Contributing Writer | October 2021</p>
+              <p>The Independent Florida Alligator | Contributing Writer |  Decemeber 2020</p>
+              <p className={styles.linkExperience}>
                 <Link href="https://www.linkedin.com/in/julia-bauer-896229201/" target="_blank" className={styles.linkExperience}
-                >  LinkedIn.
+                >View more on my LinkedIn.
                 </Link>
               </p>
             </ScrollTriggeredSection>
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
+              <h2>Education</h2>
+              <p>MA in Mass Communication, concentration in Web Design | UF | August 2022 – August 2024.</p>
+              <p>BS in Journalism, minor in Communication Studies | UF | August 2019 – May 2023.</p>
+            </ScrollTriggeredSection>
+            <div className={styles.smallSpacer} />
+            <ScrollTriggeredSection>
               <h2>Just for Fun</h2>
-              <p>Nature shots. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, inventore dolore cupiditate blanditiis distinctio temporibus non. Deserunt velit eum eveniet sapiente eius quaerat fugiat sit odit quisquam. Laboriosam, eligendi dolorum. Lorem ipsum dolor, sit amet consectetur.</p>
+              <p>I love capturing world's small, beautiful moments, which is why I have always been passionate about photography. Although I don't own a professional camera, my iPhone still allows me to capture moments that may otherwise go unnoticed. The gallery below is full of my favorite shots – one-of-a-kind images taken from the tops of mountains to right in my own backyard.</p>
               <div className={styles.smallSpacer} />
               <ScrollTriggeredSection>
                 <PersonalSection works={works} />

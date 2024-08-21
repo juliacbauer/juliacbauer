@@ -27,8 +27,8 @@ export default function Cinememo() {
                             link={{ href: "https://example.com", text: "Check out my work" }}
                             images={[
                                 "/cinememo.webp",
-                                "/cinememo.webp",
-                                "/cinememo.webp",
+                                "/cinememo1.webp",
+                                "/cinememo2.webp",
                             ]}
                         />
                     </ScrollTriggeredSection>
