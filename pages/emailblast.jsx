@@ -9,7 +9,7 @@ export default function Cinememo() {
     return (
         <>
             <Head>
-                <title>Cinememo</title>
+                <title>Email Blast</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/faviconpersonal.webp" />
             </Head>

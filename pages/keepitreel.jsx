@@ -9,7 +9,7 @@ export default function Cinememo() {
     return (
         <>
             <Head>
-                <title>Cinememo</title>
+                <title>Keep It Reel</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/faviconpersonal.webp" />
             </Head>
@@ -20,11 +20,10 @@ export default function Cinememo() {
                         <WorkPage
                             title="Keep It Reel"
                             paragraphs={[
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!",
-                                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam cumque nulla, optio aut quod atque repellendus sunt deleniti. Voluptatem eligendi pariatur vitae obcaecati repellendus delectus aliquid vel eaque placeat nisi!"
+                                "Keep It Real is a movie-searching app that I worked on with two of my peers. It is the first JavaScript project we coded as part of our master's program. It incorporates two external APIs allowing users to search for movie titles and view information about them and also view up-to-date trending titles.",
+                                "Working on this as part of a team was a great experience. Getting to build on each other's ideas allowed us to develop a clean and functional app. I developed the search page, and my teammate had the idea to add the trailer and Amazon features. They built off my code to include these features, which enhance the user experience",
                             ]}
-                            link={{ href: "https://example.com", text: "Check out my work" }}
+                            link={{ href: "https://renabmew.github.io/com6338-10-10-bauer-brown-colver/index.html", text: "Visit website" }}
                             images={[
                                 "/keepitreel1.webp",
                                 "/keepitreel3.webp",
