@@ -71,7 +71,7 @@ export default function Home() {
                   digital media who loves connecting with others through narratives and the arts. I'm a storyteller at heart.</p>
               </div>
               <div className={`${styles.imgContainer} ${styles.fadeIn}`}>
-                <LazyLoadedHome className={`${styles.img} ${styles.fadeIn}`} src="/meMain.webp" alt="Headshot" width={345}
+                <LazyLoadedHome className={`${styles.img} ${styles.fadeIn}`} src="/mainMe.webp" alt="Headshot" width={345}
                   height={345} />
               </div>
             </div>
