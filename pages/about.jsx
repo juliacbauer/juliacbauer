@@ -171,7 +171,10 @@ export default function About() {
             <div className={styles.smallSpacer} />
             <ScrollTriggeredSection>
               <h2>Experience</h2>
-              <p>Irving Publications (Wellness360 Magazine, Giggle Magazine, Giggle Magazine Jupiter) | Editorial Intern, Web Editor | January 2022 – Present</p>
+              <p>Pinnacle Home Care | Marketing Manager | March 2025 – Present</p>
+              <p>Pinnacle Home Care | Marketing Content Specialist | October 2024 – March 2025</p>
+              <p>Irving Publications (Wellness360 Magazine, Giggle Magazine, Giggle Magazine Jupiter) | Web Editor, Writer | September 2023 – October 2024</p>
+              <p>Irving Publications (Wellness360 Magazine, Giggle Magazine, Giggle Magazine Jupiter) | Editorial Intern | January 2022 – September 2023</p>
               <p>University of Florida Alumni Association | Strategic Communications Intern | January 2023 – May 2023</p>
               <p>Winterborn, LLC | Freelance Web Designer | December 2022 – January 2023</p>
               <p>WUFT News | Reporter Intern | August 2022 – December 2022</p>
